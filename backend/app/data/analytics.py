@@ -116,8 +116,11 @@ def build_distribution(terminals: list[Terminal]) -> list[Bucket]:
     return buckets
 
 
-def top_terminals(terminals: list[Terminal], limit: int = 20) -> list[Terminal]:
-    return sorted(terminals, key=lambda t: -t.from_client)[:limit]
+def top_terminals(
+    terminals: list[Terminal], limit: int = 20, ascending: bool = False
+) -> list[Terminal]:
+    key = (lambda t: t.from_client) if ascending else (lambda t: -t.from_client)
+    return sorted(terminals, key=key)[:limit]
 
 
 MIN_TURNOVER_FOR_YIELD = 10_000_000

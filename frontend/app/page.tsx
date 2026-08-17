@@ -10,6 +10,7 @@ import { TerminalsTable } from "@/components/TerminalsTable";
 import { Sidebar, type View } from "@/components/Sidebar";
 import { LoginScreen } from "@/components/LoginScreen";
 import { EfficiencyPanel } from "@/components/EfficiencyPanel";
+import { TerminalsMiniList } from "@/components/TerminalsMiniList";
 import { useI18n } from "@/lib/i18n";
 import {
   fetchSummary,
@@ -33,6 +34,7 @@ export default function Page() {
   const [buckets, setBuckets] = useState<Bucket[]>([]);
   const [segments, setSegments] = useState<Segment[]>([]);
   const [terminals, setTerminals] = useState<Terminal[]>([]);
+  const [outsiders, setOutsiders] = useState<Terminal[]>([]);
   const [efficiency, setEfficiency] = useState<Efficiency | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -45,13 +47,15 @@ export default function Page() {
       fetchSegments(),
       fetchTerminals(215),
       fetchEfficiency(),
+      fetchTerminals(10, "asc"),
     ])
-      .then(([s, d, g, tm, ef]) => {
+      .then(([s, d, g, tm, ef, out]) => {
         setSummary(s);
         setBuckets(d);
         setSegments(g);
         setTerminals(tm);
         setEfficiency(ef);
+        setOutsiders(out);
       })
       .catch((e: Error) => setError(e.message));
   }, [authorized]);
@@ -160,8 +164,8 @@ export default function Page() {
               <Panel title={t("distribution")}>
                 <Histogram data={buckets} />
               </Panel>
-              <Panel title={t("segmentTitle")}>
-                <SegmentBars data={segments} />
+              <Panel title={t("top5Terminals")}>
+                <TerminalsMiniList data={terminals.slice(0, 5)} />
               </Panel>
             </div>
 
@@ -197,8 +201,17 @@ export default function Page() {
             <Panel title={t("segmentTitle")}>
               <SegmentBars data={segments} />
             </Panel>
-            <Panel title={t("distribution")}>
-              <Histogram data={buckets} />
+            <Panel title={t("outsiders")}>
+              <p
+                style={{
+                  margin: "0 0 14px",
+                  fontSize: 12,
+                  color: "var(--text-faint)",
+                }}
+              >
+                {t("outsidersHint")}
+              </p>
+              <TerminalsMiniList data={outsiders} color="var(--negative)" />
             </Panel>
           </div>
         )}

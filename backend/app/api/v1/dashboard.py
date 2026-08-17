@@ -71,7 +71,10 @@ def distribution() -> list[BucketOut]:
 
 
 @router.get("/terminals", response_model=list[TerminalOut])
-def terminals(limit: int = Query(default=20, ge=1, le=215)) -> list[TerminalOut]:
+def terminals(
+    limit: int = Query(default=20, ge=1, le=215),
+    order: str = Query(default="desc", pattern="^(asc|desc)$"),
+) -> list[TerminalOut]:
     return [
         TerminalOut(
             number=t.number,
@@ -83,7 +86,9 @@ def terminals(limit: int = Query(default=20, ge=1, le=215)) -> list[TerminalOut]
             avg_check=t.avg_check,
             has_commission=t.has_commission,
         )
-        for t in top_terminals(list(get_terminals()), limit=limit)
+        for t in top_terminals(
+            list(get_terminals()), limit=limit, ascending=order == "asc"
+        )
     ]
 
 

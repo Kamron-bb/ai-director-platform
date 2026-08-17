@@ -87,6 +87,6 @@ export async function login(password: string): Promise<string> {
 export const fetchSummary = () => get<Summary>("/dashboard/summary");
 export const fetchSegments = () => get<Segment[]>("/dashboard/segments");
 export const fetchDistribution = () => get<Bucket[]>("/dashboard/distribution");
-export const fetchTerminals = (limit = 20) =>
-  get<Terminal[]>(`/dashboard/terminals?limit=${limit}`);
+export const fetchTerminals = (limit = 20, order: "asc" | "desc" = "desc") =>
+  get<Terminal[]>(`/dashboard/terminals?limit=${limit}&order=${order}`);
 export const fetchEfficiency = () => get<Efficiency>("/dashboard/efficiency");
