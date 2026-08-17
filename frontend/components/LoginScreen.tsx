@@ -69,10 +69,10 @@ export function LoginScreen({ onSuccess }: { onSuccess: () => void }) {
               color: "#04211d",
             }}
           >
-            AI
+            EP
           </div>
           <div style={{ lineHeight: 1.25 }}>
-            <div style={{ fontSize: 15, fontWeight: 600 }}>Director</div>
+            <div style={{ fontSize: 15, fontWeight: 600 }}>El-Pay</div>
             <div
               style={{
                 fontSize: 10,
@@ -80,7 +80,7 @@ export function LoginScreen({ onSuccess }: { onSuccess: () => void }) {
                 letterSpacing: "0.08em",
               }}
             >
-              PLATFORM
+              DASHBOARD
             </div>
           </div>
         </div>

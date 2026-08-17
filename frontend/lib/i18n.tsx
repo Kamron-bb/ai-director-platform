@@ -6,7 +6,7 @@ export type Lang = "ru" | "uz";
 
 const DICT = {
   ru: {
-    appName: "AI Director",
+    appName: "El-Pay Dashboard",
     subtitle: "Аналитика сети терминалов",
     overview: "Обзор",
     terminals: "Терминалы",
@@ -45,7 +45,7 @@ const DICT = {
     terminalsSuffix: "терм.",
   },
   uz: {
-    appName: "AI Director",
+    appName: "El-Pay Dashboard",
     subtitle: "Terminallar tarmog'i tahlili",
     overview: "Umumiy ko'rinish",
     terminals: "Terminallar",

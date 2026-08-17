@@ -59,12 +59,12 @@ export function Sidebar({
             flexShrink: 0,
           }}
         >
-          AI
+          EP
         </div>
         <div style={{ lineHeight: 1.25 }}>
-          <div style={{ fontSize: 14, fontWeight: 600 }}>Director</div>
+          <div style={{ fontSize: 14, fontWeight: 600 }}>El-Pay</div>
           <div style={{ fontSize: 10, color: "var(--text-faint)", letterSpacing: "0.08em" }}>
-            PLATFORM
+            DASHBOARD
           </div>
         </div>
       </div>

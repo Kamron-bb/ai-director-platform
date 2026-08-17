@@ -12,7 +12,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "AI Director — аналитика терминалов",
+  title: "El-Pay Dashboard — аналитика терминалов",
   description: "Аналитическая платформа сети платёжных терминалов",
 };
 

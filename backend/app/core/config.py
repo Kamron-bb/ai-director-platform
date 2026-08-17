@@ -12,7 +12,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    app_name: str = "AI Director Platform"
+    app_name: str = "El-Pay Dashboard"
     app_env: str = "local"
     api_port: int = 8000
     demo_password: str = ""
