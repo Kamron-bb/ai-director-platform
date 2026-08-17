@@ -9,16 +9,19 @@ import { SegmentBars } from "@/components/SegmentBars";
 import { TerminalsTable } from "@/components/TerminalsTable";
 import { Sidebar, type View } from "@/components/Sidebar";
 import { LoginScreen } from "@/components/LoginScreen";
+import { EfficiencyPanel } from "@/components/EfficiencyPanel";
 import { useI18n } from "@/lib/i18n";
 import {
   fetchSummary,
   fetchDistribution,
   fetchSegments,
   fetchTerminals,
+  fetchEfficiency,
   type Summary,
   type Bucket,
   type Segment,
   type Terminal,
+  type Efficiency,
 } from "@/lib/api";
 import { formatMoney, formatNumber } from "@/lib/format";
 
@@ -30,6 +33,7 @@ export default function Page() {
   const [buckets, setBuckets] = useState<Bucket[]>([]);
   const [segments, setSegments] = useState<Segment[]>([]);
   const [terminals, setTerminals] = useState<Terminal[]>([]);
+  const [efficiency, setEfficiency] = useState<Efficiency | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -40,12 +44,14 @@ export default function Page() {
       fetchDistribution(),
       fetchSegments(),
       fetchTerminals(215),
+      fetchEfficiency(),
     ])
-      .then(([s, d, g, tm]) => {
+      .then(([s, d, g, tm, ef]) => {
         setSummary(s);
         setBuckets(d);
         setSegments(g);
         setTerminals(tm);
+        setEfficiency(ef);
       })
       .catch((e: Error) => setError(e.message));
   }, [authorized]);
@@ -147,6 +153,18 @@ export default function Page() {
                 <SegmentBars data={segments} />
               </Panel>
             </div>
+
+            {efficiency && (
+              <div style={{ marginTop: 14 }}>
+                <Panel title={t("efficiencyTitle")}>
+                  <EfficiencyPanel
+                    best={efficiency.best}
+                    worst={efficiency.worst}
+                    average={efficiency.average}
+                  />
+                </Panel>
+              </div>
+            )}
           </>
         )}
 

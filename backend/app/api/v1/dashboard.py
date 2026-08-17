@@ -8,12 +8,21 @@ from app.core.auth import require_auth
 
 from app.data.analytics import (
     build_distribution,
+    efficiency_ranking,
+    yield_per_million,
     build_segments,
     build_summary,
     top_terminals,
 )
 from app.data.store import PERIOD_LABEL, get_terminals
-from app.schemas.dashboard import BucketOut, SegmentOut, SummaryOut, TerminalOut
+from app.schemas.dashboard import (
+    BucketOut,
+    EfficiencyItemOut,
+    EfficiencyOut,
+    SegmentOut,
+    SummaryOut,
+    TerminalOut,
+)
 
 router = APIRouter(
     prefix="/dashboard",
@@ -76,3 +85,27 @@ def terminals(limit: int = Query(default=20, ge=1, le=215)) -> list[TerminalOut]
         )
         for t in top_terminals(list(get_terminals()), limit=limit)
     ]
+
+
+@router.get("/efficiency", response_model=EfficiencyOut)
+def efficiency() -> EfficiencyOut:
+    best, worst, average = efficiency_ranking(list(get_terminals()), limit=5)
+
+    def convert(items: list) -> list[EfficiencyItemOut]:
+        return [
+            EfficiencyItemOut(
+                number=t.number,
+                name=t.name,
+                turnover=t.from_client,
+                reward=t.reward,
+                yield_per_million=yield_per_million(t),
+                ratio_to_average=yield_per_million(t) / average if average else 0.0,
+            )
+            for t in items
+        ]
+
+    return EfficiencyOut(
+        average=average,
+        best=convert(best),
+        worst=convert(worst),
+    )

@@ -44,6 +44,21 @@ export function setToken(value: string): void {
   token = value;
 }
 
+export interface EfficiencyItem {
+  number: number;
+  name: string;
+  turnover: number;
+  reward: number;
+  yield_per_million: number;
+  ratio_to_average: number;
+}
+
+export interface Efficiency {
+  average: number;
+  best: EfficiencyItem[];
+  worst: EfficiencyItem[];
+}
+
 async function get<T>(path: string): Promise<T> {
   const response = await fetch(`${BASE}/api/v1${path}`, {
     cache: "no-store",
@@ -74,3 +89,4 @@ export const fetchSegments = () => get<Segment[]>("/dashboard/segments");
 export const fetchDistribution = () => get<Bucket[]>("/dashboard/distribution");
 export const fetchTerminals = (limit = 20) =>
   get<Terminal[]>(`/dashboard/terminals?limit=${limit}`);
+export const fetchEfficiency = () => get<Efficiency>("/dashboard/efficiency");

@@ -118,3 +118,32 @@ def build_distribution(terminals: list[Terminal]) -> list[Bucket]:
 
 def top_terminals(terminals: list[Terminal], limit: int = 20) -> list[Terminal]:
     return sorted(terminals, key=lambda t: -t.from_client)[:limit]
+
+
+MIN_TURNOVER_FOR_YIELD = 10_000_000
+
+
+def yield_per_million(terminal: Terminal) -> float:
+    """Сколько вознаграждения приносит миллион оборота."""
+    if not terminal.from_client:
+        return 0.0
+    return terminal.reward / terminal.from_client * 1_000_000
+
+
+def efficiency_ranking(
+    terminals: list[Terminal],
+    limit: int = 5,
+) -> tuple[list[Terminal], list[Terminal], float]:
+    """
+    Лучшие и худшие по доходности.
+
+    Терминалы с малым оборотом отсекаются: у них показатель
+    неустойчив и создаёт ложные выводы.
+    """
+    meaningful = [t for t in terminals if t.from_client >= MIN_TURNOVER_FOR_YIELD]
+    ranked = sorted(meaningful, key=yield_per_million, reverse=True)
+
+    total_turnover = sum(t.from_client for t in terminals) or 1.0
+    average = sum(t.reward for t in terminals) / total_turnover * 1_000_000
+
+    return ranked[:limit], ranked[-limit:][::-1], average

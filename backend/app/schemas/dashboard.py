@@ -41,3 +41,18 @@ class TerminalOut(BaseModel):
     commission: float
     avg_check: float
     has_commission: bool
+
+
+class EfficiencyItemOut(BaseModel):
+    number: int
+    name: str
+    turnover: float
+    reward: float
+    yield_per_million: float
+    ratio_to_average: float
+
+
+class EfficiencyOut(BaseModel):
+    average: float
+    best: list[EfficiencyItemOut]
+    worst: list[EfficiencyItemOut]
