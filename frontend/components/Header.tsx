@@ -39,11 +39,11 @@ export function Header({ period }: { period: string }) {
       }}
     >
       <div>
-        <h1 style={{ margin: 0, fontSize: 22, fontWeight: 500 }}>
-          {t("appName")}
+        <h1 style={{ margin: 0, fontSize: 19, fontWeight: 600 }}>
+          {t("subtitle")}
         </h1>
-        <p style={{ margin: "4px 0 0", fontSize: 13, color: "var(--text-dim)" }}>
-          {t("subtitle")} · {period}
+        <p style={{ margin: "3px 0 0", fontSize: 13, color: "var(--text-dim)" }}>
+          {period}
         </p>
       </div>
 

@@ -85,7 +85,7 @@ export default function Page() {
             <section
               style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(184px, 1fr))",
+                gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
                 gap: 12,
                 marginBottom: 16,
               }}
