@@ -6,14 +6,17 @@ import { KpiCard } from "@/components/KpiCard";
 import { Panel } from "@/components/Panel";
 import { Histogram } from "@/components/Histogram";
 import { SegmentBars } from "@/components/SegmentBars";
+import { TerminalsTable } from "@/components/TerminalsTable";
 import { useI18n } from "@/lib/i18n";
 import {
   fetchSummary,
   fetchDistribution,
   fetchSegments,
+  fetchTerminals,
   type Summary,
   type Bucket,
   type Segment,
+  type Terminal,
 } from "@/lib/api";
 import { formatMoney, formatNumber } from "@/lib/format";
 
@@ -22,14 +25,21 @@ export default function Page() {
   const [summary, setSummary] = useState<Summary | null>(null);
   const [buckets, setBuckets] = useState<Bucket[]>([]);
   const [segments, setSegments] = useState<Segment[]>([]);
+  const [terminals, setTerminals] = useState<Terminal[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    Promise.all([fetchSummary(), fetchDistribution(), fetchSegments()])
-      .then(([s, d, g]) => {
+    Promise.all([
+      fetchSummary(),
+      fetchDistribution(),
+      fetchSegments(),
+      fetchTerminals(215),
+    ])
+      .then(([s, d, g, tm]) => {
         setSummary(s);
         setBuckets(d);
         setSegments(g);
+        setTerminals(tm);
       })
       .catch((e: Error) => setError(e.message));
   }, []);
@@ -91,6 +101,7 @@ export default function Page() {
           gridTemplateColumns: "minmax(0, 3fr) minmax(0, 2fr)",
           gap: 16,
           alignItems: "start",
+          marginBottom: 16,
         }}
       >
         <Panel title={t("distribution")}>
@@ -101,6 +112,10 @@ export default function Page() {
           <SegmentBars data={segments} />
         </Panel>
       </div>
+
+      <Panel title={t("topTerminals")}>
+        <TerminalsTable data={terminals} />
+      </Panel>
 
       <p style={{ marginTop: 20, fontSize: 12, color: "var(--text-faint)" }}>
         {t("dataNote")}

@@ -31,6 +31,13 @@ const DICT = {
     loading: "Загрузка данных",
     error: "Не удалось загрузить данные",
     dataNote: "Данные отчёта за июль 2026",
+    searchPlaceholder: "Поиск по названию или номеру",
+    colPayments: "Платежей",
+    colAvgCheck: "Ср. чек",
+    colReward: "Вознагр.",
+    noCommissionTag: "без комиссии",
+    nothingFound: "Ничего не найдено",
+    terminalsSuffix: "терм.",
   },
   uz: {
     appName: "AI Director",
@@ -58,6 +65,13 @@ const DICT = {
     loading: "Ma'lumotlar yuklanmoqda",
     error: "Ma'lumotlarni yuklab bo'lmadi",
     dataNote: "2026-yil iyul oyi hisoboti",
+    searchPlaceholder: "Nomi yoki raqami bo'yicha qidirish",
+    colPayments: "To'lovlar",
+    colAvgCheck: "O'rt. chek",
+    colReward: "Mukofot",
+    noCommissionTag: "komissiyasiz",
+    nothingFound: "Hech narsa topilmadi",
+    terminalsSuffix: "term.",
   },
 } as const;
 

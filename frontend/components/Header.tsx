@@ -9,12 +9,15 @@ export function Header({ period }: { period: string }) {
 
   const btn = {
     background: "transparent",
-    border: "1px solid var(--border)",
+    borderWidth: 1,
+    borderStyle: "solid",
+    borderColor: "var(--border)",
     borderRadius: 8,
     color: "var(--text-dim)",
     padding: "6px 12px",
     fontSize: 13,
     cursor: "pointer",
+    transition: "background 0.15s ease, color 0.15s ease",
   } as const;
 
   const btnActive = {
