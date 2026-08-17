@@ -4,6 +4,16 @@ import { useState } from "react";
 import type { Bucket } from "@/lib/api";
 import { formatMoney } from "@/lib/format";
 
+const BAR_COLORS = [
+  "var(--c-network)",
+  "var(--c-payments)",
+  "var(--c-turnover)",
+  "var(--c-turnover)",
+  "var(--c-reward)",
+  "var(--c-reward)",
+  "var(--c-check)",
+];
+
 const WIDTH = 640;
 const HEIGHT = 260;
 const PADDING = { top: 20, right: 16, bottom: 52, left: 40 };
@@ -78,8 +88,8 @@ export function Histogram({ data }: { data: Bucket[] }) {
               width={barWidth}
               height={barHeight}
               rx="4"
-              fill={active ? "var(--accent)" : "var(--accent-dim)"}
-              opacity={active ? 1 : 0.78}
+              fill={BAR_COLORS[i % BAR_COLORS.length]}
+              opacity={active ? 1 : 0.62}
             />
             <text
               x={x + barWidth / 2}
@@ -106,7 +116,7 @@ export function Histogram({ data }: { data: Bucket[] }) {
                 y={HEIGHT - PADDING.bottom + 34}
                 textAnchor="middle"
                 fontSize="10"
-                fill="var(--accent)"
+                fill={BAR_COLORS[i % BAR_COLORS.length]}
               >
                 {formatMoney(bucket.turnover)}
               </text>

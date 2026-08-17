@@ -3,6 +3,13 @@
 import type { Segment } from "@/lib/api";
 import { formatMoney, formatNumber, formatPercent } from "@/lib/format";
 
+const SEGMENT_COLORS = [
+  "var(--c-reward)",
+  "var(--c-turnover)",
+  "var(--c-payments)",
+  "var(--c-network)",
+];
+
 export function SegmentBars({ data }: { data: Segment[] }) {
   if (!data.length) return null;
 
@@ -10,7 +17,7 @@ export function SegmentBars({ data }: { data: Segment[] }) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-      {data.map((segment) => (
+      {data.map((segment, i) => (
         <div key={segment.name}>
           <div
             style={{
@@ -28,7 +35,11 @@ export function SegmentBars({ data }: { data: Segment[] }) {
             </span>
             <span
               className="tnum"
-              style={{ fontSize: 13, fontWeight: 500, color: "var(--accent)" }}
+              style={{
+                fontSize: 13,
+                fontWeight: 600,
+                color: SEGMENT_COLORS[i % SEGMENT_COLORS.length],
+              }}
             >
               {formatPercent(segment.share)}
             </span>
@@ -46,7 +57,7 @@ export function SegmentBars({ data }: { data: Segment[] }) {
               style={{
                 width: `${(segment.share / max) * 100}%`,
                 height: "100%",
-                background: "var(--accent-dim)",
+                background: SEGMENT_COLORS[i % SEGMENT_COLORS.length],
                 borderRadius: 4,
                 transition: "width 0.4s ease",
               }}
