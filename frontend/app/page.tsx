@@ -8,6 +8,7 @@ import { Histogram } from "@/components/Histogram";
 import { SegmentBars } from "@/components/SegmentBars";
 import { TerminalsTable } from "@/components/TerminalsTable";
 import { Sidebar, type View } from "@/components/Sidebar";
+import { LoginScreen } from "@/components/LoginScreen";
 import { useI18n } from "@/lib/i18n";
 import {
   fetchSummary,
@@ -23,6 +24,7 @@ import { formatMoney, formatNumber } from "@/lib/format";
 
 export default function Page() {
   const { t } = useI18n();
+  const [authorized, setAuthorized] = useState(false);
   const [view, setView] = useState<View>("overview");
   const [summary, setSummary] = useState<Summary | null>(null);
   const [buckets, setBuckets] = useState<Bucket[]>([]);
@@ -31,6 +33,8 @@ export default function Page() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!authorized) return;
+
     Promise.all([
       fetchSummary(),
       fetchDistribution(),
@@ -44,7 +48,11 @@ export default function Page() {
         setTerminals(tm);
       })
       .catch((e: Error) => setError(e.message));
-  }, []);
+  }, [authorized]);
+
+  if (!authorized) {
+    return <LoginScreen onSuccess={() => setAuthorized(true)} />;
+  }
 
   const shell = {
     display: "flex",

@@ -38,12 +38,35 @@ export interface Terminal {
   has_commission: boolean;
 }
 
+let token = "";
+
+export function setToken(value: string): void {
+  token = value;
+}
+
 async function get<T>(path: string): Promise<T> {
-  const response = await fetch(`${BASE}/api/v1${path}`, { cache: "no-store" });
+  const response = await fetch(`${BASE}/api/v1${path}`, {
+    cache: "no-store",
+    headers: { "X-Demo-Token": token },
+  });
   if (!response.ok) {
     throw new Error(`API ${response.status}: ${path}`);
   }
   return response.json() as Promise<T>;
+}
+
+export async function login(password: string): Promise<string> {
+  const response = await fetch(`${BASE}/api/v1/login`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ password }),
+  });
+  if (!response.ok) {
+    throw new Error("wrong-password");
+  }
+  const data = (await response.json()) as { token: string };
+  setToken(data.token);
+  return data.token;
 }
 
 export const fetchSummary = () => get<Summary>("/dashboard/summary");

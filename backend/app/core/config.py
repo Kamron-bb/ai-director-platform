@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     app_name: str = "AI Director Platform"
     app_env: str = "local"
     api_port: int = 8000
+    demo_password: str = ""
 
 
 @lru_cache
