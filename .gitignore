@@ -42,3 +42,8 @@ data/generated/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Real data exports — never commit
+*.xls
+*.xlsx
+data/private/
