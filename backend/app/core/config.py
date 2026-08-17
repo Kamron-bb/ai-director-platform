@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     app_env: str = "local"
     api_port: int = 8000
     demo_password: str = ""
+    cors_origins: str = "http://localhost:3000"
 
 
 @lru_cache
