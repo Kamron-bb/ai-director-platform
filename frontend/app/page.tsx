@@ -5,12 +5,15 @@ import { Header } from "@/components/Header";
 import { KpiCard } from "@/components/KpiCard";
 import { Panel } from "@/components/Panel";
 import { Histogram } from "@/components/Histogram";
+import { SegmentBars } from "@/components/SegmentBars";
 import { useI18n } from "@/lib/i18n";
 import {
   fetchSummary,
   fetchDistribution,
+  fetchSegments,
   type Summary,
   type Bucket,
+  type Segment,
 } from "@/lib/api";
 import { formatMoney, formatNumber } from "@/lib/format";
 
@@ -18,13 +21,15 @@ export default function Page() {
   const { t } = useI18n();
   const [summary, setSummary] = useState<Summary | null>(null);
   const [buckets, setBuckets] = useState<Bucket[]>([]);
+  const [segments, setSegments] = useState<Segment[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    Promise.all([fetchSummary(), fetchDistribution()])
-      .then(([s, d]) => {
+    Promise.all([fetchSummary(), fetchDistribution(), fetchSegments()])
+      .then(([s, d, g]) => {
         setSummary(s);
         setBuckets(d);
+        setSegments(g);
       })
       .catch((e: Error) => setError(e.message));
   }, []);
@@ -60,15 +65,10 @@ export default function Page() {
         <KpiCard
           label={t("turnover")}
           value={formatMoney(summary.turnover)}
-          unit={t("sum")}
           accent
         />
         <KpiCard label={t("payments")} value={formatNumber(summary.payments)} />
-        <KpiCard
-          label={t("reward")}
-          value={formatMoney(summary.reward)}
-          unit={t("sum")}
-        />
+        <KpiCard label={t("reward")} value={formatMoney(summary.reward)} />
         <KpiCard
           label={t("avgCheck")}
           value={formatNumber(summary.avg_check)}
@@ -98,9 +98,7 @@ export default function Page() {
         </Panel>
 
         <Panel title={t("segmentTitle")}>
-          <p style={{ margin: 0, fontSize: 13, color: "var(--text-dim)" }}>
-            Скоро
-          </p>
+          <SegmentBars data={segments} />
         </Panel>
       </div>
 
