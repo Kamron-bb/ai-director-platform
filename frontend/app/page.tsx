@@ -93,29 +93,34 @@ export default function Page() {
               <KpiCard
                 label={t("turnover")}
                 value={formatMoney(summary.turnover)}
+                hint={`${t("sum")} за месяц`}
                 accent
               />
               <KpiCard
                 label={t("payments")}
                 value={formatNumber(summary.payments)}
+                hint={`${formatNumber(summary.payments / summary.terminals)} на терминал`}
               />
               <KpiCard
                 label={t("reward")}
                 value={formatMoney(summary.reward)}
+                hint={`${(summary.reward / summary.turnover * 100).toFixed(3)}% от оборота`}
               />
               <KpiCard
                 label={t("avgCheck")}
                 value={formatNumber(summary.avg_check)}
                 unit={t("sum")}
+                hint={`${formatMoney(summary.commission)} ${t("sum")} комиссии`}
               />
               <KpiCard
                 label={t("activeTerminals")}
                 value={formatNumber(summary.terminals)}
+                hint={`${formatMoney(summary.turnover / summary.terminals)} ${t("sum")} в среднем`}
               />
               <KpiCard
                 label={t("noCommission")}
                 value={formatNumber(summary.zero_commission_count)}
-                hint={`${formatMoney(summary.zero_commission_turnover)} ${t("sum")}`}
+                hint={`${formatMoney(summary.zero_commission_turnover)} ${t("sum")} · ${(summary.zero_commission_turnover / summary.turnover * 100).toFixed(0)}% оборота`}
               />
             </section>
 

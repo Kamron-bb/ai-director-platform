@@ -13,19 +13,21 @@ export function KpiCard({ label, value, unit, hint, accent }: KpiCardProps) {
     <div
       style={{
         background: "var(--surface)",
-        border: "1px solid var(--border)",
+        borderWidth: 1,
+        borderStyle: "solid",
+        borderColor: "var(--border)",
         borderRadius: 12,
-        padding: "18px 20px",
+        padding: "16px 18px 14px",
         display: "flex",
         flexDirection: "column",
-        gap: 8,
-        minHeight: 118,
+        gap: 6,
       }}
     >
       <span
         style={{
-          fontSize: 11,
-          letterSpacing: "0.06em",
+          fontSize: 10.5,
+          fontWeight: 600,
+          letterSpacing: "0.07em",
           textTransform: "uppercase",
           color: "var(--text-faint)",
         }}
@@ -37,24 +39,29 @@ export function KpiCard({ label, value, unit, hint, accent }: KpiCardProps) {
         <span
           className="tnum"
           style={{
-            fontSize: 28,
-            fontWeight: 500,
-            lineHeight: 1.1,
+            fontSize: 27,
+            fontWeight: 600,
+            lineHeight: 1.15,
+            letterSpacing: "-0.01em",
             color: accent ? "var(--accent)" : "var(--text)",
           }}
         >
           {value}
         </span>
         {unit && (
-          <span style={{ fontSize: 14, color: "var(--text-dim)" }}>{unit}</span>
+          <span style={{ fontSize: 13, color: "var(--text-dim)" }}>{unit}</span>
         )}
       </div>
 
-      {hint && (
-        <span style={{ fontSize: 12, color: "var(--text-faint)", marginTop: "auto" }}>
-          {hint}
-        </span>
-      )}
+      <span
+        style={{
+          fontSize: 11.5,
+          color: "var(--text-faint)",
+          minHeight: 16,
+        }}
+      >
+        {hint ?? ""}
+      </span>
     </div>
   );
 }
