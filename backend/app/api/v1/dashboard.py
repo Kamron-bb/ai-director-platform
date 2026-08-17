@@ -34,12 +34,25 @@ def summary() -> SummaryOut:
 
 @router.get("/segments", response_model=list[SegmentOut])
 def segments() -> list[SegmentOut]:
-    return [SegmentOut(**vars(s)) for s in build_segments(list(get_terminals()))]
+    return [
+        SegmentOut(
+            name=s.name,
+            count=s.count,
+            turnover=s.turnover,
+            share=s.share,
+            payments=s.payments,
+            avg_check=s.avg_check,
+        )
+        for s in build_segments(list(get_terminals()))
+    ]
 
 
 @router.get("/distribution", response_model=list[BucketOut])
 def distribution() -> list[BucketOut]:
-    return [BucketOut(**vars(b)) for b in build_distribution(list(get_terminals()))]
+    return [
+        BucketOut(label=b.label, count=b.count, turnover=b.turnover)
+        for b in build_distribution(list(get_terminals()))
+    ]
 
 
 @router.get("/terminals", response_model=list[TerminalOut])
