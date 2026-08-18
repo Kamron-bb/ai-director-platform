@@ -20,21 +20,7 @@ export function Sidebar({
   const { t } = useI18n();
 
   return (
-    <aside
-      style={{
-        width: 216,
-        flexShrink: 0,
-        background: "var(--surface)",
-        borderRightWidth: 1,
-        borderRightStyle: "solid",
-        borderRightColor: "var(--border)",
-        minHeight: "100vh",
-        padding: "24px 12px",
-        position: "sticky",
-        top: 0,
-        alignSelf: "flex-start",
-      }}
-    >
+    <aside className="app-sidebar">
       <div
         style={{
           display: "flex",
@@ -69,7 +55,7 @@ export function Sidebar({
         </div>
       </div>
 
-      <nav style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+      <nav className="app-nav">
         {ITEMS.map((item) => {
           const isActive = item.id === active;
           return (

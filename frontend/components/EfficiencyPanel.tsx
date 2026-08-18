@@ -108,13 +108,7 @@ export function EfficiencyPanel({
         . Разрыв между лучшим и худшим — 20-кратный.
       </p>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)",
-          gap: 22,
-        }}
-      >
+      <div className="split-1-1-wide">
         <div>
           <div style={{ ...heading, color: "var(--positive)" }}>
             Лучшая доходность

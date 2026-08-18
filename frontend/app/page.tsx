@@ -64,12 +64,6 @@ export default function Page() {
     return <LoginScreen onSuccess={() => setAuthorized(true)} />;
   }
 
-  const shell = {
-    display: "flex",
-    minHeight: "100vh",
-    alignItems: "flex-start",
-  } as const;
-
   if (error) {
     return (
       <div style={{ padding: 32, color: "var(--negative)" }}>
@@ -85,29 +79,15 @@ export default function Page() {
   }
 
   return (
-    <div style={shell}>
+    <div className="app-shell">
       <Sidebar active={view} onSelect={setView} />
 
-      <main
-        style={{
-          flex: 1,
-          minWidth: 0,
-          maxWidth: 1180,
-          padding: "28px 32px 56px",
-        }}
-      >
+      <main className="app-main">
         <Header period={summary.period} />
 
         {view === "overview" && (
           <>
-            <section
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-                gap: 12,
-                marginBottom: 16,
-              }}
-            >
+            <section className="kpi-grid">
               <KpiCard
                 label={t("turnover")}
                 value={formatMoney(summary.turnover)}
@@ -153,14 +133,7 @@ export default function Page() {
               />
             </section>
 
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "minmax(0, 3fr) minmax(0, 2fr)",
-                gap: 14,
-                alignItems: "start",
-              }}
-            >
+            <div className="split-3-2">
               <Panel title={t("distribution")}>
                 <Histogram data={buckets} />
               </Panel>
@@ -190,14 +163,7 @@ export default function Page() {
         )}
 
         {view === "segments" && (
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)",
-              gap: 14,
-              alignItems: "start",
-            }}
-          >
+          <div className="split-1-1">
             <Panel title={t("segmentTitle")}>
               <SegmentBars data={segments} />
             </Panel>
