@@ -6,6 +6,7 @@ import { useI18n, type DictKey } from "@/lib/i18n";
 import { formatMoney, formatNumber } from "@/lib/format";
 
 type SortKey = "turnover" | "payments" | "avg_check" | "reward";
+type CommissionFilter = "all" | "with" | "without";
 
 const COLUMNS: { key: SortKey; label: DictKey }[] = [
   { key: "turnover", label: "turnover" },
@@ -14,10 +15,25 @@ const COLUMNS: { key: SortKey; label: DictKey }[] = [
   { key: "reward", label: "colReward" },
 ];
 
+const REGION_OPTIONS: { value: string; label: DictKey }[] = [
+  { value: "", label: "regionAll" },
+  { value: "Ташкент", label: "regionTashkent" },
+  { value: "Кашкадарья", label: "regionQashqadaryo" },
+  { value: "Андижан", label: "regionAndijon" },
+];
+
+const COMMISSION_OPTIONS: { value: CommissionFilter; label: DictKey }[] = [
+  { value: "all", label: "commissionAll" },
+  { value: "with", label: "commissionWith" },
+  { value: "without", label: "commissionWithout" },
+];
+
 export function TerminalsTable({ data }: { data: Terminal[] }) {
   const { t } = useI18n();
   const [sortKey, setSortKey] = useState<SortKey>("turnover");
   const [query, setQuery] = useState("");
+  const [regionFilter, setRegionFilter] = useState("");
+  const [commissionFilter, setCommissionFilter] = useState<CommissionFilter>("all");
 
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -28,8 +44,14 @@ export function TerminalsTable({ data }: { data: Terminal[] }) {
           item.name.toLowerCase().includes(q) ||
           String(item.number).includes(q),
       )
+      .filter((item) => !regionFilter || item.region === regionFilter)
+      .filter((item) => {
+        if (commissionFilter === "with") return item.has_commission;
+        if (commissionFilter === "without") return !item.has_commission;
+        return true;
+      })
       .sort((a, b) => b[sortKey] - a[sortKey]);
-  }, [data, sortKey, query]);
+  }, [data, sortKey, query, regionFilter, commissionFilter]);
 
   const cell = {
     padding: "9px 10px",
@@ -56,26 +78,58 @@ export function TerminalsTable({ data }: { data: Terminal[] }) {
     whiteSpace: "nowrap",
   } as const;
 
+  const filterInputStyle = {
+    background: "var(--surface-2)",
+    borderWidth: 1,
+    borderStyle: "solid",
+    borderColor: "var(--border)",
+    borderRadius: 8,
+    padding: "8px 12px",
+    fontSize: 13,
+    fontFamily: "inherit",
+    color: "var(--text)",
+    outline: "none",
+  } as const;
+
   return (
     <div>
-      <input
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder={t("searchPlaceholder")}
+      <div
         style={{
-          width: "100%",
-          background: "var(--surface-2)",
-          borderWidth: 1,
-          borderStyle: "solid",
-          borderColor: "var(--border)",
-          borderRadius: 8,
-          padding: "8px 12px",
-          fontSize: 13,
-          color: "var(--text)",
+          display: "flex",
+          gap: 8,
+          flexWrap: "wrap",
           marginBottom: 12,
-          outline: "none",
         }}
-      />
+      >
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={t("searchPlaceholder")}
+          style={{ ...filterInputStyle, flex: "1 1 220px" }}
+        />
+        <select
+          value={regionFilter}
+          onChange={(e) => setRegionFilter(e.target.value)}
+          style={{ ...filterInputStyle, cursor: "pointer" }}
+        >
+          {REGION_OPTIONS.map((opt) => (
+            <option key={opt.label} value={opt.value}>
+              {t(opt.label)}
+            </option>
+          ))}
+        </select>
+        <select
+          value={commissionFilter}
+          onChange={(e) => setCommissionFilter(e.target.value as CommissionFilter)}
+          style={{ ...filterInputStyle, cursor: "pointer" }}
+        >
+          {COMMISSION_OPTIONS.map((opt) => (
+            <option key={opt.value} value={opt.value}>
+              {t(opt.label)}
+            </option>
+          ))}
+        </select>
+      </div>
 
       <div style={{ overflowX: "auto" }}>
         <table style={{ width: "100%", borderCollapse: "collapse" }}>

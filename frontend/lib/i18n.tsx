@@ -47,6 +47,9 @@ const DICT = {
     regionTashkent: "Ташкент",
     regionQashqadaryo: "Кашкадарья",
     regionAndijon: "Андижан",
+    commissionAll: "Комиссия: все",
+    commissionWith: "С комиссией",
+    commissionWithout: "Без комиссии",
   },
   uz: {
     appName: "El-Pay Dashboard",
@@ -90,6 +93,9 @@ const DICT = {
     regionTashkent: "Toshkent",
     regionQashqadaryo: "Qashqadaryo",
     regionAndijon: "Andijon",
+    commissionAll: "Komissiya: barchasi",
+    commissionWith: "Komissiyali",
+    commissionWithout: "Komissiyasiz",
   },
 } as const;
 

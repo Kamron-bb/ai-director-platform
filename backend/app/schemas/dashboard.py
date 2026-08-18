@@ -41,6 +41,7 @@ class TerminalOut(BaseModel):
     commission: float
     avg_check: float
     has_commission: bool
+    region: str
 
 
 class EfficiencyItemOut(BaseModel):

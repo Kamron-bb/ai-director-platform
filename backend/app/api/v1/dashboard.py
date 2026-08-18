@@ -100,6 +100,7 @@ def terminals(
             commission=t.commission,
             avg_check=t.avg_check,
             has_commission=t.has_commission,
+            region=t.region,
         )
         for t in top_terminals(
             _filtered_terminals(region), limit=limit, ascending=order == "asc"

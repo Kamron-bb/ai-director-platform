@@ -36,6 +36,7 @@ export interface Terminal {
   commission: number;
   avg_check: number;
   has_commission: boolean;
+  region: string;
 }
 
 let token = "";

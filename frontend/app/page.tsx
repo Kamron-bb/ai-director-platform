@@ -43,16 +43,22 @@ export default function Page() {
   useEffect(() => {
     if (!authorized) return;
 
-    Promise.all([
-      fetchSummary(region),
-      fetchDistribution(region),
-      fetchSegments(region),
-      fetchTerminals(215, "desc", region),
-      fetchEfficiency(region),
-      fetchTerminals(10, "asc", region),
-    ])
-      .then(([s, d, g, tm, ef, out]) => {
+    // summary идёт первым: summary.terminals — точное число терминалов
+    // под текущим регионом, им и ограничиваем fetchTerminals ниже.
+    // Захардкоженное число тут повторило бы ту же ошибку, что уже
+    // была на бэкенде в /terminals до динамического MAX_TERMINALS.
+    fetchSummary(region)
+      .then((s) => {
         setSummary(s);
+        return Promise.all([
+          fetchDistribution(region),
+          fetchSegments(region),
+          fetchTerminals(s.terminals, "desc", region),
+          fetchEfficiency(region),
+          fetchTerminals(10, "asc", region),
+        ]);
+      })
+      .then(([d, g, tm, ef, out]) => {
         setBuckets(d);
         setSegments(g);
         setTerminals(tm);
