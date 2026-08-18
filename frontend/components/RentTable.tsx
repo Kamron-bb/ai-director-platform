@@ -20,6 +20,14 @@ const REGION_OPTIONS: { value: string; label: DictKey }[] = [
   { value: "Андижан", label: "regionAndijon" },
 ];
 
+const REGION_LABELS: Record<string, DictKey> = {
+  Ташкент: "regionTashkent",
+  Кашкадарья: "regionQashqadaryo",
+  Андижан: "regionAndijon",
+};
+
+const NEGATIVE_PER_REGION = 20;
+
 export function RentTable({ data }: { data: Rent[] }) {
   const { t } = useI18n();
   const [sortKey, setSortKey] = useState<SortKey>("rent_due");
@@ -44,6 +52,22 @@ export function RentTable({ data }: { data: Rent[] }) {
     [rows],
   );
 
+  const negativeByRegion = useMemo(() => {
+    const groups = new Map<string, Rent[]>();
+    for (const item of data) {
+      if (item.rent_due >= 0) continue;
+      const list = groups.get(item.region) ?? [];
+      list.push(item);
+      groups.set(item.region, list);
+    }
+    return Array.from(groups.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([region, items]) => [
+        region,
+        items.sort((a, b) => a.rent_due - b.rent_due).slice(0, NEGATIVE_PER_REGION),
+      ] as const);
+  }, [data]);
+
   const cell = {
     padding: "9px 10px",
     fontSize: 13,
@@ -52,10 +76,13 @@ export function RentTable({ data }: { data: Rent[] }) {
     borderBottomColor: "var(--border)",
   } as const;
 
-  const valueCell = (key: SortKey) => ({
+  const sumColor = (value: number) =>
+    value < 0 ? "var(--negative)" : "var(--positive)";
+
+  const valueCell = (value: number) => ({
     ...cell,
     textAlign: "right" as const,
-    color: sortKey === key ? "var(--accent)" : "var(--text-dim)",
+    color: sumColor(value),
   });
 
   const headCell = {
@@ -154,13 +181,13 @@ export function RentTable({ data }: { data: Rent[] }) {
                   </span>
                   {item.name}
                 </td>
-                <td className="tnum" style={valueCell("turnover")}>
+                <td className="tnum" style={valueCell(item.turnover)}>
                   {formatMoney(item.turnover)}
                 </td>
-                <td className="tnum" style={valueCell("base_rent")}>
+                <td className="tnum" style={valueCell(item.base_rent)}>
                   {formatNumber(item.base_rent)}
                 </td>
-                <td className="tnum" style={valueCell("rent_due")}>
+                <td className="tnum" style={valueCell(item.rent_due)}>
                   {formatNumber(item.rent_due)}
                 </td>
               </tr>
@@ -176,7 +203,7 @@ export function RentTable({ data }: { data: Rent[] }) {
                 <td style={cell} />
                 <td
                   className="tnum"
-                  style={{ ...cell, textAlign: "right", color: "var(--accent)", fontWeight: 600 }}
+                  style={{ ...cell, textAlign: "right", color: sumColor(total), fontWeight: 600 }}
                 >
                   {formatNumber(total)}
                 </td>
@@ -190,6 +217,63 @@ export function RentTable({ data }: { data: Rent[] }) {
         <p style={{ padding: 16, fontSize: 13, color: "var(--text-faint)" }}>
           {t("nothingFound")}
         </p>
+      )}
+
+      {negativeByRegion.length > 0 && (
+        <div style={{ marginTop: 28 }}>
+          <h3 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600, color: "var(--text)" }}>
+            {t("rentNegativeTitle")}
+          </h3>
+          <p style={{ margin: "0 0 14px", fontSize: 12, color: "var(--text-faint)" }}>
+            {t("rentNegativeHint")}
+          </p>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: `repeat(${negativeByRegion.length}, minmax(0, 1fr))`,
+              gap: 16,
+            }}
+          >
+            {negativeByRegion.map(([region, items]) => (
+              <div key={region}>
+                <div
+                  style={{
+                    fontSize: 12,
+                    fontWeight: 600,
+                    color: "var(--text-dim)",
+                    marginBottom: 8,
+                  }}
+                >
+                  {REGION_LABELS[region] ? t(REGION_LABELS[region]) : region}
+                  <span style={{ color: "var(--text-faint)", fontWeight: 400 }}>
+                    {" "}
+                    ({items.length})
+                  </span>
+                </div>
+                <table style={{ width: "100%", borderCollapse: "collapse" }}>
+                  <tbody>
+                    {items.map((item) => (
+                      <tr key={item.number}>
+                        <td style={{ ...cell, color: "var(--text)" }}>
+                          <span style={{ color: "var(--text-faint)", marginRight: 6 }}>
+                            {item.number}
+                          </span>
+                          {item.name}
+                        </td>
+                        <td
+                          className="tnum"
+                          style={{ ...cell, textAlign: "right", color: "var(--negative)" }}
+                        >
+                          {formatNumber(item.rent_due)}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ))}
+          </div>
+        </div>
       )}
     </div>
   );
