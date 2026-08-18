@@ -23,6 +23,7 @@ import {
   type Segment,
   type Terminal,
   type Efficiency,
+  type Region,
 } from "@/lib/api";
 import { formatMoney, formatNumber } from "@/lib/format";
 
@@ -30,6 +31,7 @@ export default function Page() {
   const { t } = useI18n();
   const [authorized, setAuthorized] = useState(false);
   const [view, setView] = useState<View>("overview");
+  const [region, setRegion] = useState<Region>(null);
   const [summary, setSummary] = useState<Summary | null>(null);
   const [buckets, setBuckets] = useState<Bucket[]>([]);
   const [segments, setSegments] = useState<Segment[]>([]);
@@ -42,12 +44,12 @@ export default function Page() {
     if (!authorized) return;
 
     Promise.all([
-      fetchSummary(),
-      fetchDistribution(),
-      fetchSegments(),
-      fetchTerminals(215),
-      fetchEfficiency(),
-      fetchTerminals(10, "asc"),
+      fetchSummary(region),
+      fetchDistribution(region),
+      fetchSegments(region),
+      fetchTerminals(215, "desc", region),
+      fetchEfficiency(region),
+      fetchTerminals(10, "asc", region),
     ])
       .then(([s, d, g, tm, ef, out]) => {
         setSummary(s);
@@ -58,7 +60,7 @@ export default function Page() {
         setOutsiders(out);
       })
       .catch((e: Error) => setError(e.message));
-  }, [authorized]);
+  }, [authorized, region]);
 
   if (!authorized) {
     return <LoginScreen onSuccess={() => setAuthorized(true)} />;
@@ -83,7 +85,7 @@ export default function Page() {
       <Sidebar active={view} onSelect={setView} />
 
       <main className="app-main">
-        <Header period={summary.period} />
+        <Header period={summary.period} region={region} onRegionChange={setRegion} />
 
         {view === "overview" && (
           <>

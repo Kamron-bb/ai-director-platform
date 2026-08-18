@@ -43,6 +43,10 @@ const DICT = {
     noCommissionTag: "без комиссии",
     nothingFound: "Ничего не найдено",
     terminalsSuffix: "терм.",
+    regionAll: "Вся сеть",
+    regionTashkent: "Ташкент",
+    regionQashqadaryo: "Кашкадарья",
+    regionAndijon: "Андижан",
   },
   uz: {
     appName: "El-Pay Dashboard",
@@ -82,6 +86,10 @@ const DICT = {
     noCommissionTag: "komissiyasiz",
     nothingFound: "Hech narsa topilmadi",
     terminalsSuffix: "term.",
+    regionAll: "Butun tarmoq",
+    regionTashkent: "Toshkent",
+    regionQashqadaryo: "Qashqadaryo",
+    regionAndijon: "Andijon",
   },
 } as const;
 
