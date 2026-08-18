@@ -1,9 +1,25 @@
 "use client";
 
-import { useI18n } from "@/lib/i18n";
+import { useI18n, type DictKey } from "@/lib/i18n";
 import { useTheme } from "@/lib/theme";
+import type { Region } from "@/lib/api";
 
-export function Header({ period }: { period: string }) {
+const REGIONS: { value: Region; label: DictKey }[] = [
+  { value: null, label: "regionAll" },
+  { value: "Ташкент", label: "regionTashkent" },
+  { value: "Кашкадарья", label: "regionQashqadaryo" },
+  { value: "Андижан", label: "regionAndijon" },
+];
+
+export function Header({
+  period,
+  region,
+  onRegionChange,
+}: {
+  period: string;
+  region: Region;
+  onRegionChange: (region: Region) => void;
+}) {
   const { t, lang, setLang } = useI18n();
   const { theme, toggle } = useTheme();
 
@@ -47,7 +63,29 @@ export function Header({ period }: { period: string }) {
         </p>
       </div>
 
-      <div style={{ display: "flex", gap: 8 }}>
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+        <select
+          value={region ?? ""}
+          onChange={(e) => onRegionChange(e.target.value || null)}
+          style={{
+            background: "var(--surface-2)",
+            borderWidth: 1,
+            borderStyle: "solid",
+            borderColor: "var(--border)",
+            borderRadius: 8,
+            color: "var(--text)",
+            padding: "6px 12px",
+            fontSize: 13,
+            fontFamily: "inherit",
+            cursor: "pointer",
+          }}
+        >
+          {REGIONS.map((r) => (
+            <option key={r.label} value={r.value ?? ""}>
+              {t(r.label)}
+            </option>
+          ))}
+        </select>
         <button style={lang === "ru" ? btnActive : btn} onClick={() => setLang("ru")}>
           RU
         </button>

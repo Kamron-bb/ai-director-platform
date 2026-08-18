@@ -56,3 +56,15 @@ class EfficiencyOut(BaseModel):
     average: float
     best: list[EfficiencyItemOut]
     worst: list[EfficiencyItemOut]
+
+
+class RegionSummaryOut(BaseModel):
+    region: str
+    terminals: int
+    payments: int
+    turnover: float
+    share: float
+    avg_check: float
+    reward: float
+    yield_per_million: float
+    zero_commission_count: int

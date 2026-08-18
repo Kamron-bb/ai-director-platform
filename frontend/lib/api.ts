@@ -70,6 +70,16 @@ async function get<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+export type Region = string | null;
+
+function withRegion(params: Record<string, string | number>, region: Region): string {
+  const query = new URLSearchParams(
+    Object.fromEntries(Object.entries(params).map(([k, v]) => [k, String(v)])),
+  );
+  if (region) query.set("region", region);
+  return query.toString();
+}
+
 export async function login(password: string): Promise<string> {
   const response = await fetch(`${BASE}/api/v1/login`, {
     method: "POST",
@@ -84,9 +94,16 @@ export async function login(password: string): Promise<string> {
   return data.token;
 }
 
-export const fetchSummary = () => get<Summary>("/dashboard/summary");
-export const fetchSegments = () => get<Segment[]>("/dashboard/segments");
-export const fetchDistribution = () => get<Bucket[]>("/dashboard/distribution");
-export const fetchTerminals = (limit = 20, order: "asc" | "desc" = "desc") =>
-  get<Terminal[]>(`/dashboard/terminals?limit=${limit}&order=${order}`);
-export const fetchEfficiency = () => get<Efficiency>("/dashboard/efficiency");
+export const fetchSummary = (region: Region = null) =>
+  get<Summary>(`/dashboard/summary?${withRegion({}, region)}`);
+export const fetchSegments = (region: Region = null) =>
+  get<Segment[]>(`/dashboard/segments?${withRegion({}, region)}`);
+export const fetchDistribution = (region: Region = null) =>
+  get<Bucket[]>(`/dashboard/distribution?${withRegion({}, region)}`);
+export const fetchTerminals = (
+  limit = 20,
+  order: "asc" | "desc" = "desc",
+  region: Region = null,
+) => get<Terminal[]>(`/dashboard/terminals?${withRegion({ limit, order }, region)}`);
+export const fetchEfficiency = (region: Region = null) =>
+  get<Efficiency>(`/dashboard/efficiency?${withRegion({}, region)}`);
