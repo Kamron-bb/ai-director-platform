@@ -7,6 +7,7 @@ import { Panel } from "@/components/Panel";
 import { Histogram } from "@/components/Histogram";
 import { SegmentBars } from "@/components/SegmentBars";
 import { TerminalsTable } from "@/components/TerminalsTable";
+import { RentTable } from "@/components/RentTable";
 import { Sidebar, type View } from "@/components/Sidebar";
 import { LoginScreen } from "@/components/LoginScreen";
 import { EfficiencyPanel } from "@/components/EfficiencyPanel";
@@ -18,11 +19,13 @@ import {
   fetchSegments,
   fetchTerminals,
   fetchEfficiency,
+  fetchRent,
   type Summary,
   type Bucket,
   type Segment,
   type Terminal,
   type Efficiency,
+  type Rent,
   type Region,
 } from "@/lib/api";
 import { formatMoney, formatNumber } from "@/lib/format";
@@ -38,6 +41,7 @@ export default function Page() {
   const [terminals, setTerminals] = useState<Terminal[]>([]);
   const [outsiders, setOutsiders] = useState<Terminal[]>([]);
   const [efficiency, setEfficiency] = useState<Efficiency | null>(null);
+  const [rent, setRent] = useState<Rent[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -56,14 +60,16 @@ export default function Page() {
           fetchTerminals(s.terminals, "desc", region),
           fetchEfficiency(region),
           fetchTerminals(10, "asc", region),
+          fetchRent(region),
         ]);
       })
-      .then(([d, g, tm, ef, out]) => {
+      .then(([d, g, tm, ef, out, rn]) => {
         setBuckets(d);
         setSegments(g);
         setTerminals(tm);
         setEfficiency(ef);
         setOutsiders(out);
+        setRent(rn);
       })
       .catch((e: Error) => setError(e.message));
   }, [authorized, region]);
@@ -167,6 +173,12 @@ export default function Page() {
         {view === "terminals" && (
           <Panel title={t("topTerminals")}>
             <TerminalsTable data={terminals} />
+          </Panel>
+        )}
+
+        {view === "rent" && (
+          <Panel title={t("rentTitle")}>
+            <RentTable data={rent} />
           </Panel>
         )}
 

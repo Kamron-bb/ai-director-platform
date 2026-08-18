@@ -7,6 +7,7 @@ xlrd открывается с ignore_workbook_corruption=True. Данные п�
 
 from __future__ import annotations
 
+import csv
 from pathlib import Path
 
 import xlrd
@@ -23,6 +24,7 @@ COL_TO_CREDIT = 4
 COL_COMMISSION = 5
 COL_REWARD = 6
 COL_TOTAL = 7
+COL_BASE_RENT = 8
 
 
 def load_terminals(path: Path, region: str = "Ташкент") -> list[Terminal]:
@@ -55,6 +57,45 @@ def load_terminals(path: Path, region: str = "Ташкент") -> list[Terminal]
                 reward=float(sheet.cell_value(row, COL_REWARD) or 0),
                 total=float(sheet.cell_value(row, COL_TOTAL) or 0),
                 region=region,
+            )
+        )
+
+    if not terminals:
+        raise ValueError(f"В файле не найдено ни одной строки данных: {path}")
+
+    return terminals
+
+
+def load_terminals_csv(path: Path, region: str = "Ташкент") -> list[Terminal]:
+    """
+    Читает CSV-выгрузку ElPay (с колонкой "Аренда") и возвращает терминалы.
+
+    Строка "Итого:" в конце файла пропускается так же, как в .xls-загрузчике.
+    """
+    if not path.exists():
+        raise FileNotFoundError(f"Файл отчёта не найден: {path}")
+
+    with path.open(encoding="utf-8", newline="") as f:
+        rows = list(csv.reader(f))
+
+    terminals: list[Terminal] = []
+    for row in rows[1:]:
+        raw_number = row[COL_NUMBER]
+        if not raw_number.isdigit():
+            continue
+
+        terminals.append(
+            Terminal(
+                number=int(raw_number),
+                name=row[COL_NAME].strip(),
+                payments=int(row[COL_PAYMENTS] or 0),
+                from_client=float(row[COL_FROM_CLIENT] or 0),
+                to_credit=float(row[COL_TO_CREDIT] or 0),
+                commission=float(row[COL_COMMISSION] or 0),
+                reward=float(row[COL_REWARD] or 0),
+                total=float(row[COL_TOTAL] or 0),
+                region=region,
+                base_rent=float(row[COL_BASE_RENT] or 0),
             )
         )
 

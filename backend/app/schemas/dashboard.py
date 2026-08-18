@@ -59,6 +59,15 @@ class EfficiencyOut(BaseModel):
     worst: list[EfficiencyItemOut]
 
 
+class RentOut(BaseModel):
+    number: int
+    name: str
+    region: str
+    turnover: float
+    base_rent: float
+    rent_due: float
+
+
 class RegionSummaryOut(BaseModel):
     region: str
     terminals: int

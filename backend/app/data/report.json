@@ -8,7 +8,8 @@
     "commission": 4121.0,
     "reward": 81361.153,
     "total": 85482.153,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002766,
@@ -19,7 +20,8 @@
     "commission": 20364.0,
     "reward": 243281.252,
     "total": 263645.252,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002321,
@@ -30,7 +32,8 @@
     "commission": 5121.0,
     "reward": 156714.153,
     "total": 161835.153,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004544,
@@ -41,7 +44,8 @@
     "commission": 0.0,
     "reward": 103947.0,
     "total": 103947.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002359,
@@ -52,7 +56,8 @@
     "commission": 4120.0,
     "reward": 89169.16,
     "total": 93289.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002224,
@@ -63,7 +68,8 @@
     "commission": 12300.0,
     "reward": 62656.9,
     "total": 74956.9,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002251,
@@ -74,7 +80,8 @@
     "commission": 6180.0,
     "reward": 131172.74,
     "total": 137352.74,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002283,
@@ -85,7 +92,8 @@
     "commission": 58371.0,
     "reward": 137813.037,
     "total": 196184.037,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002276,
@@ -96,7 +104,8 @@
     "commission": 18627.0,
     "reward": 105221.373,
     "total": 123848.373,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002346,
@@ -107,7 +116,8 @@
     "commission": 14003.0,
     "reward": 140106.181,
     "total": 154109.181,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002271,
@@ -118,7 +128,8 @@
     "commission": 5323.0,
     "reward": 146184.699,
     "total": 151507.699,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002286,
@@ -129,7 +140,8 @@
     "commission": 18540.0,
     "reward": 132625.22,
     "total": 151165.22,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002294,
@@ -140,7 +152,8 @@
     "commission": 11104.0,
     "reward": 85610.672,
     "total": 96714.672,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002297,
@@ -151,7 +164,8 @@
     "commission": 0.0,
     "reward": 45268.0,
     "total": 45268.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7003957,
@@ -162,7 +176,8 @@
     "commission": 3023.0,
     "reward": 52288.233,
     "total": 55311.233,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002323,
@@ -173,7 +188,8 @@
     "commission": 19652.0,
     "reward": 97384.906,
     "total": 117036.906,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002240,
@@ -184,7 +200,8 @@
     "commission": 73855.0,
     "reward": 110160.215,
     "total": 184015.215,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004282,
@@ -195,7 +212,8 @@
     "commission": 0.0,
     "reward": 105187.2,
     "total": 105187.2,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002361,
@@ -206,7 +224,8 @@
     "commission": 0.0,
     "reward": 40964.0,
     "total": 40964.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002308,
@@ -217,7 +236,8 @@
     "commission": 20000.0,
     "reward": 167314.0,
     "total": 187314.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002241,
@@ -228,7 +248,8 @@
     "commission": 12360.0,
     "reward": 43151.48,
     "total": 55511.48,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002357,
@@ -239,7 +260,8 @@
     "commission": 8241.0,
     "reward": 125770.313,
     "total": 134011.313,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002282,
@@ -250,7 +272,8 @@
     "commission": 9888.0,
     "reward": 161964.384,
     "total": 171852.384,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002288,
@@ -261,7 +284,8 @@
     "commission": 6866.0,
     "reward": 52805.054,
     "total": 59671.054,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7003955,
@@ -272,7 +296,8 @@
     "commission": 0.0,
     "reward": 99876.79,
     "total": 99876.79,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002243,
@@ -283,7 +308,8 @@
     "commission": 7120.0,
     "reward": 149982.16,
     "total": 157102.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002265,
@@ -294,7 +320,8 @@
     "commission": 17001.0,
     "reward": 67978.987,
     "total": 84979.987,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004378,
@@ -305,7 +332,8 @@
     "commission": 500.0,
     "reward": 219940.487,
     "total": 220440.487,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002340,
@@ -316,7 +344,8 @@
     "commission": 0.0,
     "reward": 45379.0,
     "total": 45379.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004451,
@@ -327,7 +356,8 @@
     "commission": 0.0,
     "reward": 57531.0,
     "total": 57531.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002320,
@@ -338,7 +368,8 @@
     "commission": 52119.0,
     "reward": 75180.001,
     "total": 127299.001,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002254,
@@ -349,7 +380,8 @@
     "commission": 1747.0,
     "reward": 110296.0,
     "total": 112043.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002245,
@@ -360,7 +392,8 @@
     "commission": 0.0,
     "reward": 16151.0,
     "total": 16151.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002296,
@@ -371,7 +404,8 @@
     "commission": 4000.0,
     "reward": 54187.0,
     "total": 58187.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002234,
@@ -382,7 +416,8 @@
     "commission": 12360.0,
     "reward": 52212.48,
     "total": 64572.48,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7003953,
@@ -392,8 +427,9 @@
     "to_credit": 95352160.0,
     "commission": 28840.0,
     "reward": 28629.12,
-    "total": 57469.119999999995,
-    "region": "Ташкент"
+    "total": 57469.12,
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004342,
@@ -404,7 +440,8 @@
     "commission": 3000.0,
     "reward": 55466.398,
     "total": 58466.398,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002269,
@@ -415,7 +452,8 @@
     "commission": 10180.0,
     "reward": 70347.74,
     "total": 80527.74,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004386,
@@ -426,7 +464,8 @@
     "commission": 0.0,
     "reward": 26573.0,
     "total": 26573.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002994,
@@ -437,7 +476,8 @@
     "commission": 0.0,
     "reward": 36740.0,
     "total": 36740.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002354,
@@ -448,7 +488,8 @@
     "commission": 1999.0,
     "reward": 88947.001,
     "total": 90946.001,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004545,
@@ -459,7 +500,8 @@
     "commission": 78234.0,
     "reward": 49493.468,
     "total": 127727.468,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002227,
@@ -470,7 +512,8 @@
     "commission": 1001.0,
     "reward": 133439.993,
     "total": 134440.993,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002275,
@@ -481,7 +524,8 @@
     "commission": 13512.0,
     "reward": 126297.78,
     "total": 139809.78,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002312,
@@ -492,7 +536,8 @@
     "commission": 0.0,
     "reward": 62965.0,
     "total": 62965.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004258,
@@ -503,7 +548,8 @@
     "commission": 1.0,
     "reward": 81047.193,
     "total": 81048.193,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002262,
@@ -514,7 +560,8 @@
     "commission": 3353.0,
     "reward": 55244.275,
     "total": 58597.275,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002246,
@@ -525,7 +572,8 @@
     "commission": 7074.0,
     "reward": 44145.684,
     "total": 51219.684,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002350,
@@ -536,7 +584,8 @@
     "commission": 12120.0,
     "reward": 27518.16,
     "total": 39638.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002304,
@@ -547,7 +596,8 @@
     "commission": 12360.0,
     "reward": 35884.48,
     "total": 48244.48,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002285,
@@ -558,7 +608,8 @@
     "commission": 0.0,
     "reward": 26522.0,
     "total": 26522.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002225,
@@ -569,7 +620,8 @@
     "commission": 18766.0,
     "reward": 68986.234,
     "total": 87752.234,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002311,
@@ -580,7 +632,8 @@
     "commission": 4326.0,
     "reward": 61882.918,
     "total": 66208.918,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002289,
@@ -591,7 +644,8 @@
     "commission": 0.0,
     "reward": 254577.0,
     "total": 254577.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002253,
@@ -602,7 +656,8 @@
     "commission": 10300.0,
     "reward": 57453.9,
     "total": 67753.9,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002348,
@@ -612,8 +667,9 @@
     "to_credit": 76968894.0,
     "commission": 31106.0,
     "reward": 111181.458,
-    "total": 142287.45799999998,
-    "region": "Ташкент"
+    "total": 142287.458,
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002300,
@@ -624,7 +680,8 @@
     "commission": 2061.0,
     "reward": 66991.573,
     "total": 69052.573,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002290,
@@ -635,7 +692,8 @@
     "commission": 0.0,
     "reward": 50040.0,
     "total": 50040.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002293,
@@ -646,7 +704,8 @@
     "commission": 0.0,
     "reward": 63670.0,
     "total": 63670.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002362,
@@ -657,7 +716,8 @@
     "commission": 10060.0,
     "reward": 42079.58,
     "total": 52139.58,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002347,
@@ -668,7 +728,8 @@
     "commission": 8240.0,
     "reward": 48212.32,
     "total": 56452.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002228,
@@ -679,7 +740,8 @@
     "commission": 8240.0,
     "reward": 43017.32,
     "total": 51257.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002345,
@@ -690,7 +752,8 @@
     "commission": 0.0,
     "reward": 144622.0,
     "total": 144622.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002274,
@@ -701,7 +764,8 @@
     "commission": 8240.0,
     "reward": 62264.054,
     "total": 70504.054,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002252,
@@ -712,7 +776,8 @@
     "commission": 9373.0,
     "reward": 55865.387,
     "total": 65238.387,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002554,
@@ -723,7 +788,8 @@
     "commission": 0.0,
     "reward": 118599.0,
     "total": 118599.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004460,
@@ -734,7 +800,8 @@
     "commission": 0.0,
     "reward": 50155.0,
     "total": 50155.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002260,
@@ -745,7 +812,8 @@
     "commission": 0.0,
     "reward": 50413.0,
     "total": 50413.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002305,
@@ -756,7 +824,8 @@
     "commission": 14008.0,
     "reward": 85450.544,
     "total": 99458.544,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002264,
@@ -767,7 +836,8 @@
     "commission": 13729.0,
     "reward": 84544.793,
     "total": 98273.793,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002247,
@@ -778,7 +848,8 @@
     "commission": 4000.0,
     "reward": 26817.0,
     "total": 30817.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002740,
@@ -789,7 +860,8 @@
     "commission": 0.0,
     "reward": 24458.0,
     "total": 24458.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002232,
@@ -800,7 +872,8 @@
     "commission": 0.0,
     "reward": 53100.0,
     "total": 53100.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002355,
@@ -811,7 +884,8 @@
     "commission": 10521.0,
     "reward": 47689.793,
     "total": 58210.793,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002292,
@@ -822,7 +896,8 @@
     "commission": 0.0,
     "reward": 77236.0,
     "total": 77236.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002226,
@@ -833,7 +908,8 @@
     "commission": 4140.0,
     "reward": 58287.16,
     "total": 62427.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002267,
@@ -844,7 +920,8 @@
     "commission": 10240.0,
     "reward": 64246.32,
     "total": 74486.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002301,
@@ -855,7 +932,8 @@
     "commission": 0.0,
     "reward": 39707.0,
     "total": 39707.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004274,
@@ -866,7 +944,8 @@
     "commission": 1.0,
     "reward": 35685.98,
     "total": 35686.98,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004539,
@@ -877,7 +956,8 @@
     "commission": 0.0,
     "reward": 16233.0,
     "total": 16233.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002291,
@@ -888,7 +968,8 @@
     "commission": 12064.0,
     "reward": 104899.352,
     "total": 116963.352,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004452,
@@ -899,7 +980,8 @@
     "commission": 0.0,
     "reward": 62501.0,
     "total": 62501.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7003951,
@@ -910,7 +992,8 @@
     "commission": 0.0,
     "reward": 25628.0,
     "total": 25628.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002339,
@@ -920,8 +1003,9 @@
     "to_credit": 63092502.0,
     "commission": 21498.0,
     "reward": 54601.078,
-    "total": 76099.07800000001,
-    "region": "Ташкент"
+    "total": 76099.078,
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002343,
@@ -932,7 +1016,8 @@
     "commission": 4460.0,
     "reward": 56330.18,
     "total": 60790.18,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002337,
@@ -943,7 +1028,8 @@
     "commission": 0.0,
     "reward": 62157.0,
     "total": 62157.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002324,
@@ -954,7 +1040,8 @@
     "commission": 42200.0,
     "reward": 41153.6,
     "total": 83353.6,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002326,
@@ -965,7 +1052,8 @@
     "commission": 3921.0,
     "reward": 50910.079,
     "total": 54831.079,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002233,
@@ -976,7 +1064,8 @@
     "commission": 19540.0,
     "reward": 66814.22,
     "total": 86354.22,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004445,
@@ -987,7 +1076,8 @@
     "commission": 1000.0,
     "reward": 49534.0,
     "total": 50534.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002349,
@@ -998,7 +1088,8 @@
     "commission": 7120.0,
     "reward": 69299.16,
     "total": 76419.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7003960,
@@ -1009,7 +1100,8 @@
     "commission": 15420.0,
     "reward": 55297.06,
     "total": 70717.06,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002221,
@@ -1020,7 +1112,8 @@
     "commission": 1.0,
     "reward": 37372.993,
     "total": 37373.993,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002238,
@@ -1031,7 +1124,8 @@
     "commission": 0.0,
     "reward": 43013.0,
     "total": 43013.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004425,
@@ -1042,7 +1136,8 @@
     "commission": 0.0,
     "reward": 19824.6,
     "total": 19824.6,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004273,
@@ -1053,7 +1148,8 @@
     "commission": 0.0,
     "reward": 32119.6,
     "total": 32119.6,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002244,
@@ -1064,7 +1160,8 @@
     "commission": 2060.0,
     "reward": 30760.58,
     "total": 32820.58,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004540,
@@ -1075,7 +1172,8 @@
     "commission": 0.0,
     "reward": 19267.0,
     "total": 19267.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002335,
@@ -1086,7 +1184,8 @@
     "commission": 899.0,
     "reward": 26690.101,
     "total": 27589.101,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002334,
@@ -1097,7 +1196,8 @@
     "commission": 0.0,
     "reward": 119126.0,
     "total": 119126.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002342,
@@ -1108,7 +1208,8 @@
     "commission": 20128.0,
     "reward": 56173.704,
     "total": 76301.704,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002255,
@@ -1119,7 +1220,8 @@
     "commission": 0.0,
     "reward": 41979.0,
     "total": 41979.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002307,
@@ -1130,7 +1232,8 @@
     "commission": 8240.0,
     "reward": 35505.32,
     "total": 43745.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004436,
@@ -1141,7 +1244,8 @@
     "commission": 0.0,
     "reward": 17837.0,
     "total": 17837.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002351,
@@ -1152,7 +1256,8 @@
     "commission": 1.0,
     "reward": 58780.993,
     "total": 58781.993,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002318,
@@ -1163,7 +1268,8 @@
     "commission": 0.0,
     "reward": 46608.0,
     "total": 46608.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002356,
@@ -1174,7 +1280,8 @@
     "commission": 495.0,
     "reward": 50750.215,
     "total": 51245.215,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002256,
@@ -1185,7 +1292,8 @@
     "commission": 4120.0,
     "reward": 39622.16,
     "total": 43742.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002222,
@@ -1196,7 +1304,8 @@
     "commission": 32662.0,
     "reward": 58220.32,
     "total": 90882.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002270,
@@ -1207,7 +1316,8 @@
     "commission": 58997.0,
     "reward": 29939.015,
     "total": 88936.015,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002329,
@@ -1218,7 +1328,8 @@
     "commission": 2000.0,
     "reward": 38525.0,
     "total": 40525.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002338,
@@ -1229,7 +1340,8 @@
     "commission": 0.0,
     "reward": 56977.0,
     "total": 56977.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004257,
@@ -1240,7 +1352,8 @@
     "commission": 499.0,
     "reward": 45216.507,
     "total": 45715.507,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002268,
@@ -1251,7 +1364,8 @@
     "commission": 0.0,
     "reward": 68949.0,
     "total": 68949.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002235,
@@ -1262,7 +1376,8 @@
     "commission": 2060.0,
     "reward": 42252.58,
     "total": 44312.58,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004447,
@@ -1273,7 +1388,8 @@
     "commission": 0.0,
     "reward": 19379.0,
     "total": 19379.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004448,
@@ -1284,7 +1400,8 @@
     "commission": 0.0,
     "reward": 10982.8,
     "total": 10982.8,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002303,
@@ -1295,7 +1412,8 @@
     "commission": 784.0,
     "reward": 47180.216,
     "total": 47964.216,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7003954,
@@ -1306,7 +1424,8 @@
     "commission": 20203.0,
     "reward": 77194.637,
     "total": 97397.637,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002327,
@@ -1317,7 +1436,8 @@
     "commission": 34926.0,
     "reward": 25313.728,
     "total": 60239.728,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002258,
@@ -1328,7 +1448,8 @@
     "commission": 14436.0,
     "reward": 51388.508,
     "total": 65824.508,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004420,
@@ -1339,7 +1460,8 @@
     "commission": 0.0,
     "reward": 80236.0,
     "total": 80236.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002309,
@@ -1350,7 +1472,8 @@
     "commission": 1000.0,
     "reward": 109180.0,
     "total": 110180.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002266,
@@ -1361,7 +1484,8 @@
     "commission": 0.0,
     "reward": 33119.0,
     "total": 33119.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002220,
@@ -1372,7 +1496,8 @@
     "commission": 0.0,
     "reward": 20614.0,
     "total": 20614.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004265,
@@ -1383,7 +1508,8 @@
     "commission": 0.0,
     "reward": 39164.0,
     "total": 39164.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002263,
@@ -1394,7 +1520,8 @@
     "commission": 4120.0,
     "reward": 37768.0,
     "total": 41888.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002317,
@@ -1405,7 +1532,8 @@
     "commission": 0.0,
     "reward": 51763.0,
     "total": 51763.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004542,
@@ -1416,7 +1544,8 @@
     "commission": 499.0,
     "reward": 50368.921,
     "total": 50867.921,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002281,
@@ -1427,7 +1556,8 @@
     "commission": 1333.0,
     "reward": 6376.667,
     "total": 7709.667,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004472,
@@ -1438,7 +1568,8 @@
     "commission": 0.0,
     "reward": 49417.0,
     "total": 49417.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002341,
@@ -1449,7 +1580,8 @@
     "commission": 12000.0,
     "reward": 41217.0,
     "total": 53217.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002223,
@@ -1460,7 +1592,8 @@
     "commission": 0.0,
     "reward": 25082.254,
     "total": 25082.254,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002325,
@@ -1470,8 +1603,9 @@
     "to_credit": 37443232.0,
     "commission": 5768.0,
     "reward": 11941.224,
-    "total": 17709.224000000002,
-    "region": "Ташкент"
+    "total": 17709.224,
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002287,
@@ -1482,7 +1616,8 @@
     "commission": 0.0,
     "reward": 52145.0,
     "total": 52145.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002239,
@@ -1493,7 +1628,8 @@
     "commission": 16480.0,
     "reward": 20835.64,
     "total": 37315.64,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002229,
@@ -1504,7 +1640,8 @@
     "commission": 0.0,
     "reward": 43385.0,
     "total": 43385.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004463,
@@ -1515,7 +1652,8 @@
     "commission": 0.0,
     "reward": 42048.0,
     "total": 42048.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004397,
@@ -1526,7 +1664,8 @@
     "commission": 0.0,
     "reward": 23430.0,
     "total": 23430.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002279,
@@ -1537,7 +1676,8 @@
     "commission": 11887.0,
     "reward": 44665.791,
     "total": 56552.791,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002257,
@@ -1548,7 +1688,8 @@
     "commission": 4060.0,
     "reward": 28614.58,
     "total": 32674.58,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002284,
@@ -1559,7 +1700,8 @@
     "commission": 0.0,
     "reward": 35527.0,
     "total": 35527.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002336,
@@ -1570,7 +1712,8 @@
     "commission": 0.0,
     "reward": 21703.0,
     "total": 21703.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002330,
@@ -1581,7 +1724,8 @@
     "commission": 0.0,
     "reward": 46360.0,
     "total": 46360.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002310,
@@ -1592,7 +1736,8 @@
     "commission": 5550.0,
     "reward": 32755.15,
     "total": 38305.15,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002295,
@@ -1603,7 +1748,8 @@
     "commission": 0.0,
     "reward": 15061.0,
     "total": 15061.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004462,
@@ -1614,7 +1760,8 @@
     "commission": 0.0,
     "reward": 26544.0,
     "total": 26544.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002277,
@@ -1625,7 +1772,8 @@
     "commission": 0.0,
     "reward": 26935.0,
     "total": 26935.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002358,
@@ -1636,7 +1784,8 @@
     "commission": 8240.0,
     "reward": 43407.32,
     "total": 51647.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002331,
@@ -1647,7 +1796,8 @@
     "commission": 4120.0,
     "reward": 26501.16,
     "total": 30621.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002316,
@@ -1658,7 +1808,8 @@
     "commission": 4120.0,
     "reward": 41510.16,
     "total": 45630.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002242,
@@ -1669,7 +1820,8 @@
     "commission": 8721.0,
     "reward": 18100.52,
     "total": 26821.52,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002259,
@@ -1680,7 +1832,8 @@
     "commission": 2060.0,
     "reward": 22361.58,
     "total": 24421.58,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7003952,
@@ -1691,7 +1844,8 @@
     "commission": 1.0,
     "reward": 24728.993,
     "total": 24729.993,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002248,
@@ -1702,7 +1856,8 @@
     "commission": 46144.0,
     "reward": 23541.798,
     "total": 69685.798,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004387,
@@ -1713,7 +1868,8 @@
     "commission": 0.0,
     "reward": 12141.0,
     "total": 12141.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002236,
@@ -1724,7 +1880,8 @@
     "commission": 0.0,
     "reward": 13068.0,
     "total": 13068.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004438,
@@ -1734,8 +1891,9 @@
     "to_credit": 29841079.0,
     "commission": 3921.0,
     "reward": 13062.079,
-    "total": 16983.078999999998,
-    "region": "Ташкент"
+    "total": 16983.079,
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002273,
@@ -1746,7 +1904,8 @@
     "commission": 7999.0,
     "reward": 24130.001,
     "total": 32129.001,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002299,
@@ -1757,7 +1916,8 @@
     "commission": 39.0,
     "reward": 40918.961,
     "total": 40957.961,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004467,
@@ -1768,7 +1928,8 @@
     "commission": 0.0,
     "reward": 46831.0,
     "total": 46831.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004384,
@@ -1779,7 +1940,8 @@
     "commission": 0.0,
     "reward": 19432.0,
     "total": 19432.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002322,
@@ -1790,7 +1952,8 @@
     "commission": 1.0,
     "reward": 14183.993,
     "total": 14184.993,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004541,
@@ -1801,7 +1964,8 @@
     "commission": 0.0,
     "reward": 20008.0,
     "total": 20008.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004280,
@@ -1812,7 +1976,8 @@
     "commission": 0.0,
     "reward": 22451.2,
     "total": 22451.2,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004450,
@@ -1823,7 +1988,8 @@
     "commission": 0.0,
     "reward": 12994.0,
     "total": 12994.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002344,
@@ -1834,7 +2000,8 @@
     "commission": 0.0,
     "reward": 27911.0,
     "total": 27911.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004446,
@@ -1844,8 +2011,9 @@
     "to_credit": 25990844.0,
     "commission": 4156.0,
     "reward": 15332.844,
-    "total": 19488.843999999997,
-    "region": "Ташкент"
+    "total": 19488.844,
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004207,
@@ -1856,7 +2024,8 @@
     "commission": 0.0,
     "reward": 11241.0,
     "total": 11241.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002306,
@@ -1867,7 +2036,8 @@
     "commission": 0.0,
     "reward": 21298.0,
     "total": 21298.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002261,
@@ -1878,7 +2048,8 @@
     "commission": 0.0,
     "reward": 17675.0,
     "total": 17675.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002231,
@@ -1889,7 +2060,8 @@
     "commission": 9029.0,
     "reward": 9738.0,
     "total": 18767.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002280,
@@ -1900,7 +2072,8 @@
     "commission": 0.0,
     "reward": 21754.0,
     "total": 21754.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002302,
@@ -1911,7 +2084,8 @@
     "commission": 0.0,
     "reward": 30358.0,
     "total": 30358.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002332,
@@ -1922,7 +2096,8 @@
     "commission": 2499.0,
     "reward": 36868.507,
     "total": 39367.507,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002352,
@@ -1933,7 +2108,8 @@
     "commission": 0.0,
     "reward": 60563.0,
     "total": 60563.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002417,
@@ -1944,7 +2120,8 @@
     "commission": 4120.0,
     "reward": 27207.16,
     "total": 31327.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002314,
@@ -1955,7 +2132,8 @@
     "commission": 0.0,
     "reward": 16876.0,
     "total": 16876.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004377,
@@ -1966,7 +2144,8 @@
     "commission": 0.0,
     "reward": 7150.0,
     "total": 7150.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002315,
@@ -1977,7 +2156,8 @@
     "commission": 4120.0,
     "reward": 49335.16,
     "total": 53455.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002298,
@@ -1988,7 +2168,8 @@
     "commission": 8240.0,
     "reward": 14645.32,
     "total": 22885.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7003958,
@@ -1999,7 +2180,8 @@
     "commission": 8240.0,
     "reward": 13483.32,
     "total": 21723.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7003959,
@@ -2010,7 +2192,8 @@
     "commission": 0.0,
     "reward": 21335.0,
     "total": 21335.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7003956,
@@ -2021,7 +2204,8 @@
     "commission": 4000.0,
     "reward": 21333.0,
     "total": 25333.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004543,
@@ -2032,7 +2216,8 @@
     "commission": 0.0,
     "reward": 7982.998,
     "total": 7982.998,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002328,
@@ -2043,7 +2228,8 @@
     "commission": 0.0,
     "reward": 10792.0,
     "total": 10792.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7002230,
@@ -2054,7 +2240,8 @@
     "commission": 0.0,
     "reward": 11014.0,
     "total": 11014.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004443,
@@ -2065,7 +2252,8 @@
     "commission": 0.0,
     "reward": 13953.0,
     "total": 13953.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7002278,
@@ -2076,7 +2264,8 @@
     "commission": 11000.0,
     "reward": 19904.0,
     "total": 30904.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002272,
@@ -2087,7 +2276,8 @@
     "commission": 0.0,
     "reward": 10352.0,
     "total": 10352.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002313,
@@ -2098,7 +2288,8 @@
     "commission": 0.0,
     "reward": 16505.0,
     "total": 16505.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002555,
@@ -2109,7 +2300,8 @@
     "commission": 0.0,
     "reward": 15861.0,
     "total": 15861.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004461,
@@ -2120,7 +2312,8 @@
     "commission": 0.0,
     "reward": 16513.0,
     "total": 16513.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7002249,
@@ -2131,7 +2324,8 @@
     "commission": 9240.0,
     "reward": 29144.32,
     "total": 38384.32,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004440,
@@ -2142,7 +2336,8 @@
     "commission": 0.0,
     "reward": 11155.0,
     "total": 11155.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002360,
@@ -2153,7 +2348,8 @@
     "commission": 0.0,
     "reward": 25311.0,
     "total": 25311.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004385,
@@ -2164,7 +2360,8 @@
     "commission": 0.0,
     "reward": 6026.0,
     "total": 6026.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004442,
@@ -2175,7 +2372,8 @@
     "commission": 0.0,
     "reward": 11810.0,
     "total": 11810.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004634,
@@ -2186,7 +2384,8 @@
     "commission": 0.0,
     "reward": 11397.0,
     "total": 11397.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004441,
@@ -2197,7 +2396,8 @@
     "commission": 0.0,
     "reward": 8016.4,
     "total": 8016.4,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004453,
@@ -2208,7 +2408,8 @@
     "commission": 0.0,
     "reward": 12358.0,
     "total": 12358.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004422,
@@ -2219,7 +2420,8 @@
     "commission": 0.0,
     "reward": 4765.0,
     "total": 4765.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004012,
@@ -2230,7 +2432,8 @@
     "commission": 412.0,
     "reward": 24318.516,
     "total": 24730.516,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002353,
@@ -2241,7 +2444,8 @@
     "commission": 4120.0,
     "reward": 14486.16,
     "total": 18606.16,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004475,
@@ -2252,7 +2456,8 @@
     "commission": 0.0,
     "reward": 21292.0,
     "total": 21292.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004259,
@@ -2263,7 +2468,8 @@
     "commission": 0.0,
     "reward": 5908.0,
     "total": 5908.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7004628,
@@ -2274,7 +2480,8 @@
     "commission": 5000.0,
     "reward": 48258.0,
     "total": 53258.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7002333,
@@ -2285,7 +2492,8 @@
     "commission": 0.0,
     "reward": 13996.0,
     "total": 13996.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7004627,
@@ -2296,7 +2504,8 @@
     "commission": 0.0,
     "reward": 4959.0,
     "total": 4959.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 600000.0
   },
   {
     "number": 7002319,
@@ -2307,7 +2516,8 @@
     "commission": 0.0,
     "reward": 4640.0,
     "total": 4640.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004632,
@@ -2318,7 +2528,8 @@
     "commission": 0.0,
     "reward": 1981.0,
     "total": 1981.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 300000.0
   },
   {
     "number": 7004256,
@@ -2329,7 +2540,8 @@
     "commission": 1.0,
     "reward": 3994.993,
     "total": 3995.993,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004635,
@@ -2340,7 +2552,8 @@
     "commission": 0.0,
     "reward": 644.0,
     "total": 644.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 500000.0
   },
   {
     "number": 7004637,
@@ -2351,7 +2564,8 @@
     "commission": 0.0,
     "reward": 14.0,
     "total": 14.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 200000.0
   },
   {
     "number": 7004623,
@@ -2362,7 +2576,8 @@
     "commission": 0.0,
     "reward": 14.0,
     "total": 14.0,
-    "region": "Ташкент"
+    "region": "Ташкент",
+    "base_rent": 400000.0
   },
   {
     "number": 7101288,
@@ -2373,7 +2588,8 @@
     "commission": 2607.0,
     "reward": 53556.376,
     "total": 56163.376,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101422,
@@ -2384,7 +2600,8 @@
     "commission": 14230.0,
     "reward": 111278.232,
     "total": 125508.232,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101437,
@@ -2395,7 +2612,8 @@
     "commission": 4974.0,
     "reward": 82077.236,
     "total": 87051.236,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101355,
@@ -2406,7 +2624,8 @@
     "commission": 4166.0,
     "reward": 58420.977,
     "total": 62586.977,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101281,
@@ -2417,7 +2636,8 @@
     "commission": 16213.0,
     "reward": 61897.986,
     "total": 78110.986,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101391,
@@ -2428,7 +2648,8 @@
     "commission": 17628.0,
     "reward": 63720.838,
     "total": 81348.838,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101479,
@@ -2439,7 +2660,8 @@
     "commission": 8445.0,
     "reward": 66310.856,
     "total": 74755.856,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101347,
@@ -2450,7 +2672,8 @@
     "commission": 1997.0,
     "reward": 34701.984,
     "total": 36698.984,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101229,
@@ -2461,7 +2684,8 @@
     "commission": 13997.0,
     "reward": 127390.22,
     "total": 141387.22,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101628,
@@ -2472,7 +2696,8 @@
     "commission": 0.0,
     "reward": 44557.552,
     "total": 44557.552,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101311,
@@ -2483,7 +2708,8 @@
     "commission": 1907.0,
     "reward": 58340.379,
     "total": 60247.379,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101455,
@@ -2494,7 +2720,8 @@
     "commission": 0.0,
     "reward": 27238.33,
     "total": 27238.33,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101426,
@@ -2505,7 +2732,8 @@
     "commission": 6726.0,
     "reward": 30399.835,
     "total": 37125.835,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101617,
@@ -2516,7 +2744,8 @@
     "commission": 10437.0,
     "reward": 66979.588,
     "total": 77416.588,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101550,
@@ -2527,7 +2756,8 @@
     "commission": 1.0,
     "reward": 51372.467,
     "total": 51373.467,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101301,
@@ -2538,7 +2768,8 @@
     "commission": 13014.0,
     "reward": 107483.603,
     "total": 120497.603,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101473,
@@ -2549,7 +2780,8 @@
     "commission": 0.0,
     "reward": 21547.65,
     "total": 21547.65,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101352,
@@ -2560,7 +2792,8 @@
     "commission": 19477.0,
     "reward": 45603.602,
     "total": 65080.602,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101250,
@@ -2571,7 +2804,8 @@
     "commission": 2045.0,
     "reward": 43626.372,
     "total": 45671.372,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101509,
@@ -2582,7 +2816,8 @@
     "commission": 0.0,
     "reward": 38866.98,
     "total": 38866.98,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101530,
@@ -2593,7 +2828,8 @@
     "commission": 0.0,
     "reward": 65279.184,
     "total": 65279.184,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101467,
@@ -2604,7 +2840,8 @@
     "commission": 646.0,
     "reward": 66197.729,
     "total": 66843.729,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101537,
@@ -2615,7 +2852,8 @@
     "commission": 0.0,
     "reward": 41853.91,
     "total": 41853.91,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101661,
@@ -2626,7 +2864,8 @@
     "commission": 8004.0,
     "reward": 21724.387,
     "total": 29728.387,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101374,
@@ -2637,7 +2876,8 @@
     "commission": 7814.0,
     "reward": 162709.791,
     "total": 170523.791,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101488,
@@ -2648,7 +2888,8 @@
     "commission": 61167.0,
     "reward": 31646.745,
     "total": 92813.745,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101441,
@@ -2659,7 +2900,8 @@
     "commission": 3056.0,
     "reward": 22440.526,
     "total": 25496.526,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101400,
@@ -2670,7 +2912,8 @@
     "commission": 0.0,
     "reward": 42263.54,
     "total": 42263.54,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101532,
@@ -2681,7 +2924,8 @@
     "commission": 8240.0,
     "reward": 32613.174,
     "total": 40853.174,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101317,
@@ -2692,7 +2936,8 @@
     "commission": 0.0,
     "reward": 40109.708,
     "total": 40109.708,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101560,
@@ -2703,7 +2948,8 @@
     "commission": 6005.0,
     "reward": 31351.484,
     "total": 37356.484,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101456,
@@ -2714,7 +2960,8 @@
     "commission": 0.0,
     "reward": 11139.682,
     "total": 11139.682,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101625,
@@ -2725,7 +2972,8 @@
     "commission": 0.0,
     "reward": 7911.909,
     "total": 7911.909,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101646,
@@ -2736,7 +2984,8 @@
     "commission": 1843.0,
     "reward": 19260.34,
     "total": 21103.34,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101614,
@@ -2747,7 +2996,8 @@
     "commission": 1331.0,
     "reward": 46848.587,
     "total": 48179.587,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101579,
@@ -2758,7 +3008,8 @@
     "commission": 9023.0,
     "reward": 35339.558,
     "total": 44362.558,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101331,
@@ -2769,7 +3020,8 @@
     "commission": 5342.0,
     "reward": 29036.406,
     "total": 34378.406,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101443,
@@ -2780,7 +3032,8 @@
     "commission": 3617.0,
     "reward": 29450.09,
     "total": 33067.09,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101271,
@@ -2791,7 +3044,8 @@
     "commission": 31301.0,
     "reward": 41953.216,
     "total": 73254.216,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101553,
@@ -2802,7 +3056,8 @@
     "commission": 3498.0,
     "reward": 61687.705,
     "total": 65185.705,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101255,
@@ -2813,7 +3068,8 @@
     "commission": 1370.0,
     "reward": 36154.341,
     "total": 37524.341,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101514,
@@ -2824,7 +3080,8 @@
     "commission": 4623.0,
     "reward": 51573.419,
     "total": 56196.419,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101284,
@@ -2835,7 +3092,8 @@
     "commission": 0.0,
     "reward": 14020.341,
     "total": 14020.341,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101260,
@@ -2846,7 +3104,8 @@
     "commission": 0.0,
     "reward": 28584.24,
     "total": 28584.24,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101555,
@@ -2857,7 +3116,8 @@
     "commission": 7494.0,
     "reward": 15037.501,
     "total": 22531.501,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101247,
@@ -2868,7 +3128,8 @@
     "commission": 1574.0,
     "reward": 25481.749,
     "total": 27055.749,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101261,
@@ -2879,7 +3140,8 @@
     "commission": 4146.0,
     "reward": 51542.837,
     "total": 55688.837,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101277,
@@ -2890,7 +3152,8 @@
     "commission": 5789.0,
     "reward": 21634.369,
     "total": 27423.369,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101248,
@@ -2901,7 +3164,8 @@
     "commission": 0.0,
     "reward": 17122.048,
     "total": 17122.048,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101394,
@@ -2912,7 +3176,8 @@
     "commission": 7159.0,
     "reward": 63136.066,
     "total": 70295.066,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101244,
@@ -2923,7 +3188,8 @@
     "commission": 22897.0,
     "reward": 55942.021,
     "total": 78839.021,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101474,
@@ -2934,7 +3200,8 @@
     "commission": 0.0,
     "reward": 9396.013,
     "total": 9396.013,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101376,
@@ -2945,7 +3212,8 @@
     "commission": 5558.0,
     "reward": 36295.92,
     "total": 41853.92,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101418,
@@ -2956,7 +3224,8 @@
     "commission": 5506.0,
     "reward": 36479.773,
     "total": 41985.773,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101353,
@@ -2967,7 +3236,8 @@
     "commission": 1.0,
     "reward": 21242.832,
     "total": 21243.832,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101339,
@@ -2978,7 +3248,8 @@
     "commission": 0.0,
     "reward": 23532.897,
     "total": 23532.897,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101531,
@@ -2989,7 +3260,8 @@
     "commission": 5711.0,
     "reward": 21537.602,
     "total": 27248.602,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101407,
@@ -3000,7 +3272,8 @@
     "commission": 215.0,
     "reward": 58987.765,
     "total": 59202.765,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101366,
@@ -3011,7 +3284,8 @@
     "commission": 20223.0,
     "reward": 31514.42,
     "total": 51737.42,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101378,
@@ -3022,7 +3296,8 @@
     "commission": 0.0,
     "reward": 18276.326,
     "total": 18276.326,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101609,
@@ -3033,7 +3308,8 @@
     "commission": 1930.0,
     "reward": 19620.34,
     "total": 21550.34,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101505,
@@ -3044,7 +3320,8 @@
     "commission": 7322.0,
     "reward": 32304.416,
     "total": 39626.416,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101233,
@@ -3055,7 +3332,8 @@
     "commission": 5994.0,
     "reward": 20784.714,
     "total": 26778.714,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101566,
@@ -3066,7 +3344,8 @@
     "commission": 0.0,
     "reward": 24401.502,
     "total": 24401.502,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101227,
@@ -3077,7 +3356,8 @@
     "commission": 1362.0,
     "reward": 24544.525,
     "total": 25906.525,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101201,
@@ -3088,7 +3368,8 @@
     "commission": 5232.0,
     "reward": 17464.297,
     "total": 22696.297,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101502,
@@ -3099,7 +3380,8 @@
     "commission": 1.0,
     "reward": 23670.52,
     "total": 23671.52,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101208,
@@ -3110,7 +3392,8 @@
     "commission": 0.0,
     "reward": 8338.985,
     "total": 8338.985,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101491,
@@ -3121,7 +3404,8 @@
     "commission": 0.0,
     "reward": 20301.435,
     "total": 20301.435,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101221,
@@ -3132,7 +3416,8 @@
     "commission": 0.0,
     "reward": 10724.529,
     "total": 10724.529,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101266,
@@ -3143,7 +3428,8 @@
     "commission": 0.0,
     "reward": 24788.321,
     "total": 24788.321,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101630,
@@ -3154,7 +3440,8 @@
     "commission": 5803.0,
     "reward": 19139.02,
     "total": 24942.02,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101607,
@@ -3165,7 +3452,8 @@
     "commission": 6407.0,
     "reward": 28488.17,
     "total": 34895.17,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101231,
@@ -3176,7 +3464,8 @@
     "commission": 0.0,
     "reward": 21342.986,
     "total": 21342.986,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101483,
@@ -3187,7 +3476,8 @@
     "commission": 0.0,
     "reward": 66341.283,
     "total": 66341.283,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101358,
@@ -3198,7 +3488,8 @@
     "commission": 0.0,
     "reward": 29505.798,
     "total": 29505.798,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101371,
@@ -3209,7 +3500,8 @@
     "commission": 3661.0,
     "reward": 18481.158,
     "total": 22142.158,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101619,
@@ -3220,7 +3512,8 @@
     "commission": 763.0,
     "reward": 58827.347,
     "total": 59590.347,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101254,
@@ -3231,7 +3524,8 @@
     "commission": 0.0,
     "reward": 4943.454,
     "total": 4943.454,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101582,
@@ -3242,7 +3536,8 @@
     "commission": 4536.0,
     "reward": 9356.709,
     "total": 13892.709,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101398,
@@ -3253,7 +3548,8 @@
     "commission": 2540.0,
     "reward": 13007.18,
     "total": 15547.18,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101384,
@@ -3264,7 +3560,8 @@
     "commission": 1638.0,
     "reward": 9428.834,
     "total": 11066.834,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101624,
@@ -3275,7 +3572,8 @@
     "commission": 1197.0,
     "reward": 12018.021,
     "total": 13215.021,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101616,
@@ -3286,7 +3584,8 @@
     "commission": 0.0,
     "reward": 19065.386,
     "total": 19065.386,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101499,
@@ -3297,7 +3596,8 @@
     "commission": 10823.0,
     "reward": 11654.489,
     "total": 22477.489,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101408,
@@ -3308,7 +3608,8 @@
     "commission": 0.0,
     "reward": 9097.336,
     "total": 9097.336,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101662,
@@ -3319,7 +3620,8 @@
     "commission": 6775.0,
     "reward": 21844.144,
     "total": 28619.144,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101360,
@@ -3330,7 +3632,8 @@
     "commission": 0.0,
     "reward": 12112.898,
     "total": 12112.898,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101395,
@@ -3341,7 +3644,8 @@
     "commission": 2205.0,
     "reward": 19326.129,
     "total": 21531.129,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101545,
@@ -3352,7 +3656,8 @@
     "commission": 4143.0,
     "reward": 8134.335,
     "total": 12277.335,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101393,
@@ -3363,7 +3668,8 @@
     "commission": 0.0,
     "reward": 23644.296,
     "total": 23644.296,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101210,
@@ -3374,7 +3680,8 @@
     "commission": 265.0,
     "reward": 25785.049,
     "total": 26050.049,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101480,
@@ -3385,7 +3692,8 @@
     "commission": 411.0,
     "reward": 25899.554,
     "total": 26310.554,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101606,
@@ -3396,7 +3704,8 @@
     "commission": 0.0,
     "reward": 31786.714,
     "total": 31786.714,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101308,
@@ -3407,7 +3716,8 @@
     "commission": 332.0,
     "reward": 26376.682,
     "total": 26708.682,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101230,
@@ -3418,7 +3728,8 @@
     "commission": 4341.0,
     "reward": 38801.494,
     "total": 43142.494,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101282,
@@ -3429,7 +3740,8 @@
     "commission": 19850.0,
     "reward": 31088.88,
     "total": 50938.88,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101296,
@@ -3440,7 +3752,8 @@
     "commission": 0.0,
     "reward": 12995.88,
     "total": 12995.88,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101338,
@@ -3451,7 +3764,8 @@
     "commission": 331.0,
     "reward": 8481.133,
     "total": 8812.133,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101274,
@@ -3462,7 +3776,8 @@
     "commission": 7741.0,
     "reward": 20996.315,
     "total": 28737.315,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101406,
@@ -3473,7 +3788,8 @@
     "commission": 1194.0,
     "reward": 21270.421,
     "total": 22464.421,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101346,
@@ -3484,7 +3800,8 @@
     "commission": 569.0,
     "reward": 21008.511,
     "total": 21577.511,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101590,
@@ -3495,7 +3812,8 @@
     "commission": 0.0,
     "reward": 4526.47,
     "total": 4526.47,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101386,
@@ -3506,7 +3824,8 @@
     "commission": 0.0,
     "reward": 7222.997,
     "total": 7222.997,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101615,
@@ -3517,7 +3836,8 @@
     "commission": 4441.0,
     "reward": 17798.247,
     "total": 22239.247,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101344,
@@ -3528,7 +3848,8 @@
     "commission": 2091.0,
     "reward": 15172.16,
     "total": 17263.16,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101430,
@@ -3539,7 +3860,8 @@
     "commission": 0.0,
     "reward": 8305.182,
     "total": 8305.182,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101375,
@@ -3550,7 +3872,8 @@
     "commission": 1635.0,
     "reward": 19256.233,
     "total": 20891.233,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101472,
@@ -3561,7 +3884,8 @@
     "commission": 3123.0,
     "reward": 20193.295,
     "total": 23316.295,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101222,
@@ -3572,7 +3896,8 @@
     "commission": 0.0,
     "reward": 5811.847,
     "total": 5811.847,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101323,
@@ -3583,7 +3908,8 @@
     "commission": 1642.0,
     "reward": 9131.517,
     "total": 10773.517,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101295,
@@ -3594,7 +3920,8 @@
     "commission": 0.0,
     "reward": 6589.944,
     "total": 6589.944,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101604,
@@ -3605,7 +3932,8 @@
     "commission": 0.0,
     "reward": 15429.644,
     "total": 15429.644,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101207,
@@ -3616,7 +3944,8 @@
     "commission": 0.0,
     "reward": 20639.113,
     "total": 20639.113,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101223,
@@ -3627,7 +3956,8 @@
     "commission": 0.0,
     "reward": 22637.477,
     "total": 22637.477,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101500,
@@ -3638,7 +3968,8 @@
     "commission": 0.0,
     "reward": 11551.123,
     "total": 11551.123,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101203,
@@ -3649,7 +3980,8 @@
     "commission": 21648.0,
     "reward": 9839.758,
     "total": 31487.758,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101438,
@@ -3660,7 +3992,8 @@
     "commission": 9339.0,
     "reward": 24399.083,
     "total": 33738.083,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101435,
@@ -3671,7 +4004,8 @@
     "commission": 1334.0,
     "reward": 16961.972,
     "total": 18295.972,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101410,
@@ -3682,7 +4016,8 @@
     "commission": 5151.0,
     "reward": 22822.299,
     "total": 27973.299,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101361,
@@ -3693,7 +4028,8 @@
     "commission": 367.0,
     "reward": 19327.436,
     "total": 19694.436,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101587,
@@ -3704,7 +4040,8 @@
     "commission": 2137.0,
     "reward": 23135.958,
     "total": 25272.958,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101349,
@@ -3715,7 +4052,8 @@
     "commission": 0.0,
     "reward": 6348.297,
     "total": 6348.297,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101573,
@@ -3726,7 +4064,8 @@
     "commission": 0.0,
     "reward": 19990.763,
     "total": 19990.763,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101571,
@@ -3737,7 +4076,8 @@
     "commission": 0.0,
     "reward": 22346.872,
     "total": 22346.872,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101458,
@@ -3748,7 +4088,8 @@
     "commission": 0.0,
     "reward": 12168.649,
     "total": 12168.649,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101298,
@@ -3759,7 +4100,8 @@
     "commission": 0.0,
     "reward": 10395.479,
     "total": 10395.479,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101369,
@@ -3770,7 +4112,8 @@
     "commission": 0.0,
     "reward": 31104.009,
     "total": 31104.009,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101493,
@@ -3781,7 +4124,8 @@
     "commission": 0.0,
     "reward": 22331.649,
     "total": 22331.649,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101476,
@@ -3792,7 +4136,8 @@
     "commission": 2526.0,
     "reward": 19899.428,
     "total": 22425.428,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101316,
@@ -3803,7 +4148,8 @@
     "commission": 1.0,
     "reward": 19345.575,
     "total": 19346.575,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101342,
@@ -3814,7 +4160,8 @@
     "commission": 7916.0,
     "reward": 17485.151,
     "total": 25401.151,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101206,
@@ -3825,7 +4172,8 @@
     "commission": 0.0,
     "reward": 19248.096,
     "total": 19248.096,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101293,
@@ -3836,7 +4184,8 @@
     "commission": 0.0,
     "reward": 10948.712,
     "total": 10948.712,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101226,
@@ -3847,7 +4196,8 @@
     "commission": 775.0,
     "reward": 2813.85,
     "total": 3588.85,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101401,
@@ -3858,7 +4208,8 @@
     "commission": 0.0,
     "reward": 12174.565,
     "total": 12174.565,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101640,
@@ -3869,7 +4220,8 @@
     "commission": 0.0,
     "reward": 42987.715,
     "total": 42987.715,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101309,
@@ -3880,7 +4232,8 @@
     "commission": 0.0,
     "reward": 19925.564,
     "total": 19925.564,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101337,
@@ -3891,7 +4244,8 @@
     "commission": 395.0,
     "reward": 15752.868,
     "total": 16147.868,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101600,
@@ -3902,7 +4256,8 @@
     "commission": 1842.0,
     "reward": 9293.731,
     "total": 11135.731,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101602,
@@ -3913,7 +4268,8 @@
     "commission": 0.0,
     "reward": 14392.848,
     "total": 14392.848,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101412,
@@ -3924,7 +4280,8 @@
     "commission": 0.0,
     "reward": 5458.8,
     "total": 5458.8,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101642,
@@ -3935,7 +4292,8 @@
     "commission": 0.0,
     "reward": 9801.84,
     "total": 9801.84,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101592,
@@ -3946,7 +4304,8 @@
     "commission": 0.0,
     "reward": 5595.263,
     "total": 5595.263,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101436,
@@ -3957,7 +4316,8 @@
     "commission": 0.0,
     "reward": 4461.598,
     "total": 4461.598,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101524,
@@ -3968,7 +4328,8 @@
     "commission": 0.0,
     "reward": 9731.976,
     "total": 9731.976,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101238,
@@ -3979,7 +4340,8 @@
     "commission": 0.0,
     "reward": 13828.691,
     "total": 13828.691,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101457,
@@ -3990,7 +4352,8 @@
     "commission": 1690.0,
     "reward": 9866.317,
     "total": 11556.317,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101552,
@@ -4001,7 +4364,8 @@
     "commission": 1918.0,
     "reward": 4899.563,
     "total": 6817.563,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101246,
@@ -4012,7 +4376,8 @@
     "commission": 0.0,
     "reward": 10345.921,
     "total": 10345.921,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101303,
@@ -4023,7 +4388,8 @@
     "commission": 7860.0,
     "reward": 5421.759,
     "total": 13281.759,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101485,
@@ -4034,7 +4400,8 @@
     "commission": 4134.0,
     "reward": 13795.259,
     "total": 17929.259,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101643,
@@ -4045,7 +4412,8 @@
     "commission": 24.0,
     "reward": 17341.68,
     "total": 17365.68,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101489,
@@ -4056,7 +4424,8 @@
     "commission": 7045.0,
     "reward": 21348.65,
     "total": 28393.65,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101279,
@@ -4067,7 +4436,8 @@
     "commission": 0.0,
     "reward": 7079.935,
     "total": 7079.935,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101429,
@@ -4078,7 +4448,8 @@
     "commission": 0.0,
     "reward": 17809.914,
     "total": 17809.914,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101424,
@@ -4089,7 +4460,8 @@
     "commission": 2371.0,
     "reward": 11063.125,
     "total": 13434.125,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101578,
@@ -4100,7 +4472,8 @@
     "commission": 6178.0,
     "reward": 26456.522,
     "total": 32634.522,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101507,
@@ -4111,7 +4484,8 @@
     "commission": 13848.0,
     "reward": 8172.629,
     "total": 22020.629,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101217,
@@ -4122,7 +4496,8 @@
     "commission": 2679.0,
     "reward": 32400.829,
     "total": 35079.829,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101319,
@@ -4133,7 +4508,8 @@
     "commission": 0.0,
     "reward": 8857.881,
     "total": 8857.881,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101529,
@@ -4144,7 +4520,8 @@
     "commission": 0.0,
     "reward": 8241.659,
     "total": 8241.659,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101332,
@@ -4155,7 +4532,8 @@
     "commission": 2707.0,
     "reward": 13599.241,
     "total": 16306.241,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101535,
@@ -4166,7 +4544,8 @@
     "commission": 4189.0,
     "reward": 5196.422,
     "total": 9385.422,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101381,
@@ -4177,7 +4556,8 @@
     "commission": 0.0,
     "reward": 3719.582,
     "total": 3719.582,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101638,
@@ -4188,7 +4568,8 @@
     "commission": 0.0,
     "reward": 5658.342,
     "total": 5658.342,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101653,
@@ -4199,7 +4580,8 @@
     "commission": 1466.0,
     "reward": 4170.747,
     "total": 5636.747,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101220,
@@ -4210,7 +4592,8 @@
     "commission": 818.0,
     "reward": 6909.519,
     "total": 7727.519,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101278,
@@ -4221,7 +4604,8 @@
     "commission": 0.0,
     "reward": 18387.513,
     "total": 18387.513,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101636,
@@ -4232,7 +4616,8 @@
     "commission": 0.0,
     "reward": 8489.386,
     "total": 8489.386,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101328,
@@ -4243,7 +4628,8 @@
     "commission": 0.0,
     "reward": 8309.247,
     "total": 8309.247,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101631,
@@ -4254,7 +4640,8 @@
     "commission": 1670.0,
     "reward": 6348.536,
     "total": 8018.536,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101648,
@@ -4265,7 +4652,8 @@
     "commission": 0.0,
     "reward": 9812.243,
     "total": 9812.243,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101330,
@@ -4276,7 +4664,8 @@
     "commission": 0.0,
     "reward": 14296.307,
     "total": 14296.307,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101450,
@@ -4287,7 +4676,8 @@
     "commission": 0.0,
     "reward": 5982.226,
     "total": 5982.226,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101262,
@@ -4298,7 +4688,8 @@
     "commission": 0.0,
     "reward": 6443.376,
     "total": 6443.376,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101658,
@@ -4309,7 +4700,8 @@
     "commission": 0.0,
     "reward": 3377.184,
     "total": 3377.184,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101263,
@@ -4320,7 +4712,8 @@
     "commission": 5035.0,
     "reward": 5070.127,
     "total": 10105.127,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101618,
@@ -4331,7 +4724,8 @@
     "commission": 0.0,
     "reward": 6309.439,
     "total": 6309.439,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101368,
@@ -4342,7 +4736,8 @@
     "commission": 5894.0,
     "reward": 6306.046,
     "total": 12200.046,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101563,
@@ -4353,7 +4748,8 @@
     "commission": 0.0,
     "reward": 7089.917,
     "total": 7089.917,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101665,
@@ -4364,7 +4760,8 @@
     "commission": 7755.0,
     "reward": 11376.712,
     "total": 19131.712,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101212,
@@ -4375,7 +4772,8 @@
     "commission": 0.0,
     "reward": 4803.813,
     "total": 4803.813,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101416,
@@ -4386,7 +4784,8 @@
     "commission": 0.0,
     "reward": 3547.762,
     "total": 3547.762,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101519,
@@ -4397,7 +4796,8 @@
     "commission": 3178.0,
     "reward": 6264.54,
     "total": 9442.54,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101611,
@@ -4408,7 +4808,8 @@
     "commission": 0.0,
     "reward": 10148.422,
     "total": 10148.422,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101539,
@@ -4419,7 +4820,8 @@
     "commission": 0.0,
     "reward": 6159.844,
     "total": 6159.844,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101542,
@@ -4430,7 +4832,8 @@
     "commission": 18635.0,
     "reward": 6078.584,
     "total": 24713.584,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101540,
@@ -4441,7 +4844,8 @@
     "commission": 0.0,
     "reward": 10368.796,
     "total": 10368.796,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101475,
@@ -4452,7 +4856,8 @@
     "commission": 0.0,
     "reward": 6335.038,
     "total": 6335.038,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101322,
@@ -4463,7 +4868,8 @@
     "commission": 0.0,
     "reward": 2717.8,
     "total": 2717.8,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101343,
@@ -4474,7 +4880,8 @@
     "commission": 0.0,
     "reward": 6146.838,
     "total": 6146.838,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101427,
@@ -4485,7 +4892,8 @@
     "commission": 0.0,
     "reward": 6634.856,
     "total": 6634.856,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101351,
@@ -4496,7 +4904,8 @@
     "commission": 0.0,
     "reward": 3446.452,
     "total": 3446.452,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101420,
@@ -4507,7 +4916,8 @@
     "commission": 0.0,
     "reward": 5716.536,
     "total": 5716.536,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101286,
@@ -4518,7 +4928,8 @@
     "commission": 0.0,
     "reward": 4483.759,
     "total": 4483.759,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101459,
@@ -4529,7 +4940,8 @@
     "commission": 0.0,
     "reward": 1847.577,
     "total": 1847.577,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 600000.0
   },
   {
     "number": 7101253,
@@ -4540,7 +4952,8 @@
     "commission": 0.0,
     "reward": 6202.61,
     "total": 6202.61,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101647,
@@ -4551,7 +4964,8 @@
     "commission": 839.0,
     "reward": 9403.424,
     "total": 10242.424,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101664,
@@ -4562,7 +4976,8 @@
     "commission": 1006.0,
     "reward": 3745.202,
     "total": 4751.202,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101363,
@@ -4573,7 +4988,8 @@
     "commission": 0.0,
     "reward": 2772.981,
     "total": 2772.981,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101448,
@@ -4584,7 +5000,8 @@
     "commission": 169.0,
     "reward": 10669.372,
     "total": 10838.372,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101200,
@@ -4595,7 +5012,8 @@
     "commission": 0.0,
     "reward": 4225.561,
     "total": 4225.561,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101595,
@@ -4606,7 +5024,8 @@
     "commission": 712.0,
     "reward": 9919.482,
     "total": 10631.482,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101464,
@@ -4617,7 +5036,8 @@
     "commission": 3536.0,
     "reward": 19996.588,
     "total": 23532.588,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101650,
@@ -4628,7 +5048,8 @@
     "commission": 0.0,
     "reward": 6887.328,
     "total": 6887.328,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101413,
@@ -4639,7 +5060,8 @@
     "commission": 0.0,
     "reward": 2417.8,
     "total": 2417.8,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101276,
@@ -4650,7 +5072,8 @@
     "commission": 1617.0,
     "reward": 4699.732,
     "total": 6316.732,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 500000.0
   },
   {
     "number": 7101350,
@@ -4661,7 +5084,8 @@
     "commission": 0.0,
     "reward": 2368.205,
     "total": 2368.205,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101243,
@@ -4672,7 +5096,8 @@
     "commission": 0.0,
     "reward": 2275.701,
     "total": 2275.701,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 200000.0
   },
   {
     "number": 7101649,
@@ -4683,7 +5108,8 @@
     "commission": 186.0,
     "reward": 558.155,
     "total": 744.155,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101265,
@@ -4694,7 +5120,8 @@
     "commission": 1.0,
     "reward": 1505.555,
     "total": 1506.555,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101440,
@@ -4705,7 +5132,8 @@
     "commission": 0.0,
     "reward": 246.234,
     "total": 246.234,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 400000.0
   },
   {
     "number": 7101299,
@@ -4716,7 +5144,8 @@
     "commission": 0.0,
     "reward": 11.274,
     "total": 11.274,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7101498,
@@ -4727,7 +5156,8 @@
     "commission": 0.0,
     "reward": 12.253,
     "total": 12.253,
-    "region": "Кашкадарья"
+    "region": "Кашкадарья",
+    "base_rent": 300000.0
   },
   {
     "number": 7203139,
@@ -4738,7 +5168,8 @@
     "commission": 4746.0,
     "reward": 82002.979,
     "total": 86748.979,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203323,
@@ -4749,7 +5180,8 @@
     "commission": 6241.0,
     "reward": 109963.614,
     "total": 116204.614,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203155,
@@ -4760,7 +5192,8 @@
     "commission": 11146.0,
     "reward": 125291.367,
     "total": 136437.367,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203304,
@@ -4771,7 +5204,8 @@
     "commission": 0.0,
     "reward": 80642.005,
     "total": 80642.005,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203403,
@@ -4782,7 +5216,8 @@
     "commission": 13932.0,
     "reward": 100134.104,
     "total": 114066.104,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203184,
@@ -4793,7 +5228,8 @@
     "commission": 0.0,
     "reward": 66922.305,
     "total": 66922.305,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203336,
@@ -4804,7 +5240,8 @@
     "commission": 3594.0,
     "reward": 90461.216,
     "total": 94055.216,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203251,
@@ -4815,7 +5252,8 @@
     "commission": 2523.0,
     "reward": 50808.702,
     "total": 53331.702,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203324,
@@ -4826,7 +5264,8 @@
     "commission": 0.0,
     "reward": 79628.057,
     "total": 79628.057,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203510,
@@ -4837,7 +5276,8 @@
     "commission": 11389.0,
     "reward": 39000.156,
     "total": 50389.156,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203316,
@@ -4848,7 +5288,8 @@
     "commission": 4019.0,
     "reward": 123573.486,
     "total": 127592.486,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203176,
@@ -4859,7 +5300,8 @@
     "commission": 12627.0,
     "reward": 99122.737,
     "total": 111749.737,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203517,
@@ -4870,7 +5312,8 @@
     "commission": 0.0,
     "reward": 75644.692,
     "total": 75644.692,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203406,
@@ -4881,7 +5324,8 @@
     "commission": 2214.0,
     "reward": 80970.743,
     "total": 83184.743,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203333,
@@ -4892,7 +5336,8 @@
     "commission": 0.0,
     "reward": 18341.35,
     "total": 18341.35,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203445,
@@ -4903,7 +5348,8 @@
     "commission": 0.0,
     "reward": 25119.183,
     "total": 25119.183,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203382,
@@ -4914,7 +5360,8 @@
     "commission": 8763.0,
     "reward": 69493.031,
     "total": 78256.031,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203449,
@@ -4925,7 +5372,8 @@
     "commission": 0.0,
     "reward": 67643.989,
     "total": 67643.989,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203217,
@@ -4936,7 +5384,8 @@
     "commission": 2027.0,
     "reward": 99258.529,
     "total": 101285.529,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203154,
@@ -4947,7 +5396,8 @@
     "commission": 7321.0,
     "reward": 40786.167,
     "total": 48107.167,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203212,
@@ -4958,7 +5408,8 @@
     "commission": 33269.0,
     "reward": 81408.211,
     "total": 114677.211,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203469,
@@ -4969,7 +5420,8 @@
     "commission": 2976.0,
     "reward": 49597.49,
     "total": 52573.49,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203215,
@@ -4980,7 +5432,8 @@
     "commission": 3842.0,
     "reward": 66726.592,
     "total": 70568.592,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203430,
@@ -4991,7 +5444,8 @@
     "commission": 17514.0,
     "reward": 123671.721,
     "total": 141185.721,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203164,
@@ -5002,7 +5456,8 @@
     "commission": 15262.0,
     "reward": 98185.692,
     "total": 113447.692,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203194,
@@ -5013,7 +5468,8 @@
     "commission": 0.0,
     "reward": 60023.503,
     "total": 60023.503,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203375,
@@ -5024,7 +5480,8 @@
     "commission": 7838.0,
     "reward": 103465.661,
     "total": 111303.661,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203370,
@@ -5035,7 +5492,8 @@
     "commission": 8180.0,
     "reward": 33797.921,
     "total": 41977.921,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203358,
@@ -5046,7 +5504,8 @@
     "commission": 3207.0,
     "reward": 35962.085,
     "total": 39169.085,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203321,
@@ -5057,7 +5516,8 @@
     "commission": 0.0,
     "reward": 16502.407,
     "total": 16502.407,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203555,
@@ -5068,7 +5528,8 @@
     "commission": 8077.0,
     "reward": 117848.634,
     "total": 125925.634,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203289,
@@ -5079,7 +5540,8 @@
     "commission": 34654.0,
     "reward": 69300.084,
     "total": 103954.084,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203419,
@@ -5090,7 +5552,8 @@
     "commission": 21126.0,
     "reward": 62292.728,
     "total": 83418.728,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203160,
@@ -5101,7 +5564,8 @@
     "commission": 0.0,
     "reward": 23414.982,
     "total": 23414.982,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203473,
@@ -5112,7 +5576,8 @@
     "commission": 15971.0,
     "reward": 96277.282,
     "total": 112248.282,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203257,
@@ -5123,7 +5588,8 @@
     "commission": 0.0,
     "reward": 32826.709,
     "total": 32826.709,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203398,
@@ -5134,7 +5600,8 @@
     "commission": 0.0,
     "reward": 39624.588,
     "total": 39624.588,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203502,
@@ -5145,7 +5612,8 @@
     "commission": 6504.0,
     "reward": 79637.294,
     "total": 86141.294,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203274,
@@ -5156,7 +5624,8 @@
     "commission": 0.0,
     "reward": 19241.136,
     "total": 19241.136,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203340,
@@ -5167,7 +5636,8 @@
     "commission": 7992.0,
     "reward": 30081.439,
     "total": 38073.439,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203346,
@@ -5178,7 +5648,8 @@
     "commission": 0.0,
     "reward": 32176.686,
     "total": 32176.686,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203417,
@@ -5189,7 +5660,8 @@
     "commission": 11339.0,
     "reward": 33944.121,
     "total": 45283.121,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203392,
@@ -5200,7 +5672,8 @@
     "commission": 0.0,
     "reward": 46522.039,
     "total": 46522.039,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203487,
@@ -5211,7 +5684,8 @@
     "commission": 4933.0,
     "reward": 53788.521,
     "total": 58721.521,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203310,
@@ -5222,7 +5696,8 @@
     "commission": 6636.0,
     "reward": 34033.349,
     "total": 40669.349,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203264,
@@ -5233,7 +5708,8 @@
     "commission": 0.0,
     "reward": 45040.821,
     "total": 45040.821,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203244,
@@ -5244,7 +5720,8 @@
     "commission": 0.0,
     "reward": 24506.615,
     "total": 24506.615,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203367,
@@ -5255,7 +5732,8 @@
     "commission": 1.0,
     "reward": 47321.892,
     "total": 47322.892,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203319,
@@ -5266,7 +5744,8 @@
     "commission": 2119.0,
     "reward": 25335.225,
     "total": 27454.225,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203150,
@@ -5277,7 +5756,8 @@
     "commission": 6841.0,
     "reward": 62197.483,
     "total": 69038.483,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203489,
@@ -5288,7 +5768,8 @@
     "commission": 0.0,
     "reward": 27962.063,
     "total": 27962.063,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203366,
@@ -5299,7 +5780,8 @@
     "commission": 0.0,
     "reward": 44853.002,
     "total": 44853.002,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203165,
@@ -5310,7 +5792,8 @@
     "commission": 10244.0,
     "reward": 23430.932,
     "total": 33674.932,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203466,
@@ -5321,7 +5804,8 @@
     "commission": 603.0,
     "reward": 64795.605,
     "total": 65398.605,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203259,
@@ -5332,7 +5816,8 @@
     "commission": 0.0,
     "reward": 39114.238,
     "total": 39114.238,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203409,
@@ -5343,7 +5828,8 @@
     "commission": 9049.0,
     "reward": 17389.232,
     "total": 26438.232,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203213,
@@ -5354,7 +5840,8 @@
     "commission": 18043.0,
     "reward": 12555.903,
     "total": 30598.903,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203338,
@@ -5365,7 +5852,8 @@
     "commission": 15570.0,
     "reward": 63786.045,
     "total": 79356.045,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203247,
@@ -5376,7 +5864,8 @@
     "commission": 10513.0,
     "reward": 54543.82,
     "total": 65056.82,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203470,
@@ -5387,7 +5876,8 @@
     "commission": 8219.0,
     "reward": 27624.801,
     "total": 35843.801,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203348,
@@ -5398,7 +5888,8 @@
     "commission": 6291.0,
     "reward": 27823.356,
     "total": 34114.356,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203233,
@@ -5409,7 +5900,8 @@
     "commission": 3312.0,
     "reward": 41250.454,
     "total": 44562.454,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203534,
@@ -5420,7 +5912,8 @@
     "commission": 6585.0,
     "reward": 26131.689,
     "total": 32716.689,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203453,
@@ -5431,7 +5924,8 @@
     "commission": 0.0,
     "reward": 145369.631,
     "total": 145369.631,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203252,
@@ -5442,7 +5936,8 @@
     "commission": 6657.0,
     "reward": 33449.844,
     "total": 40106.844,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203291,
@@ -5453,7 +5948,8 @@
     "commission": 29898.0,
     "reward": 25945.253,
     "total": 55843.253,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203175,
@@ -5464,7 +5960,8 @@
     "commission": 0.0,
     "reward": 61143.394,
     "total": 61143.394,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203393,
@@ -5475,7 +5972,8 @@
     "commission": 18385.0,
     "reward": 68000.017,
     "total": 86385.017,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203272,
@@ -5486,7 +5984,8 @@
     "commission": 0.0,
     "reward": 31923.254,
     "total": 31923.254,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203380,
@@ -5497,7 +5996,8 @@
     "commission": 0.0,
     "reward": 38410.939,
     "total": 38410.939,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203448,
@@ -5508,7 +6008,8 @@
     "commission": 0.0,
     "reward": 15218.827,
     "total": 15218.827,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203250,
@@ -5519,7 +6020,8 @@
     "commission": 1406.0,
     "reward": 36019.72,
     "total": 37425.72,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203145,
@@ -5530,7 +6032,8 @@
     "commission": 33739.0,
     "reward": 55603.67,
     "total": 89342.67,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203387,
@@ -5541,7 +6044,8 @@
     "commission": 3055.0,
     "reward": 38120.903,
     "total": 41175.903,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203208,
@@ -5552,7 +6056,8 @@
     "commission": 4216.0,
     "reward": 13070.232,
     "total": 17286.232,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203237,
@@ -5563,7 +6068,8 @@
     "commission": 1.0,
     "reward": 17990.143,
     "total": 17991.143,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203492,
@@ -5574,7 +6080,8 @@
     "commission": 7019.0,
     "reward": 10569.687,
     "total": 17588.687,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203464,
@@ -5585,7 +6092,8 @@
     "commission": 0.0,
     "reward": 13228.546,
     "total": 13228.546,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203105,
@@ -5596,7 +6104,8 @@
     "commission": 0.0,
     "reward": 33979.266,
     "total": 33979.266,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203270,
@@ -5607,7 +6116,8 @@
     "commission": 1158.0,
     "reward": 22685.71,
     "total": 23843.71,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203133,
@@ -5618,7 +6128,8 @@
     "commission": 0.0,
     "reward": 47175.785,
     "total": 47175.785,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203553,
@@ -5629,7 +6140,8 @@
     "commission": 0.0,
     "reward": 21790.451,
     "total": 21790.451,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203402,
@@ -5640,7 +6152,8 @@
     "commission": 4673.0,
     "reward": 27734.564,
     "total": 32407.564,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203198,
@@ -5651,7 +6164,8 @@
     "commission": 0.0,
     "reward": 21434.417,
     "total": 21434.417,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203224,
@@ -5662,7 +6176,8 @@
     "commission": 6615.0,
     "reward": 40261.285,
     "total": 46876.285,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203551,
@@ -5673,7 +6188,8 @@
     "commission": 8057.0,
     "reward": 34253.814,
     "total": 42310.814,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203554,
@@ -5684,7 +6200,8 @@
     "commission": 0.0,
     "reward": 39340.406,
     "total": 39340.406,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203288,
@@ -5695,7 +6212,8 @@
     "commission": 0.0,
     "reward": 33323.794,
     "total": 33323.794,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203220,
@@ -5706,7 +6224,8 @@
     "commission": 0.0,
     "reward": 36300.09,
     "total": 36300.09,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203219,
@@ -5717,7 +6236,8 @@
     "commission": 11498.0,
     "reward": 39352.391,
     "total": 50850.391,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203536,
@@ -5728,7 +6248,8 @@
     "commission": 0.0,
     "reward": 30521.621,
     "total": 30521.621,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203114,
@@ -5739,7 +6260,8 @@
     "commission": 0.0,
     "reward": 28614.53,
     "total": 28614.53,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203428,
@@ -5750,7 +6272,8 @@
     "commission": 1.0,
     "reward": 23810.451,
     "total": 23811.451,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203507,
@@ -5761,7 +6284,8 @@
     "commission": 0.0,
     "reward": 56603.272,
     "total": 56603.272,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203539,
@@ -5772,7 +6296,8 @@
     "commission": 186.0,
     "reward": 59901.285,
     "total": 60087.285,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203200,
@@ -5783,7 +6308,8 @@
     "commission": 408.0,
     "reward": 27827.747,
     "total": 28235.747,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203407,
@@ -5794,7 +6320,8 @@
     "commission": 3860.0,
     "reward": 28246.816,
     "total": 32106.816,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203190,
@@ -5805,7 +6332,8 @@
     "commission": 0.0,
     "reward": 44893.325,
     "total": 44893.325,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203179,
@@ -5816,7 +6344,8 @@
     "commission": 0.0,
     "reward": 10526.5,
     "total": 10526.5,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203152,
@@ -5827,7 +6356,8 @@
     "commission": 994.0,
     "reward": 64426.956,
     "total": 65420.956,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203211,
@@ -5838,7 +6368,8 @@
     "commission": 3427.0,
     "reward": 18956.861,
     "total": 22383.861,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203137,
@@ -5849,7 +6380,8 @@
     "commission": 2298.0,
     "reward": 22174.116,
     "total": 24472.116,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203102,
@@ -5860,7 +6392,8 @@
     "commission": 0.0,
     "reward": 18986.012,
     "total": 18986.012,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203197,
@@ -5871,7 +6404,8 @@
     "commission": 1762.0,
     "reward": 12150.297,
     "total": 13912.297,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203126,
@@ -5882,7 +6416,8 @@
     "commission": 597.0,
     "reward": 26030.273,
     "total": 26627.273,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203242,
@@ -5893,7 +6428,8 @@
     "commission": 0.0,
     "reward": 54249.286,
     "total": 54249.286,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203399,
@@ -5904,7 +6440,8 @@
     "commission": 0.0,
     "reward": 27606.677,
     "total": 27606.677,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203169,
@@ -5915,7 +6452,8 @@
     "commission": 0.0,
     "reward": 8768.633,
     "total": 8768.633,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203360,
@@ -5926,7 +6464,8 @@
     "commission": 0.0,
     "reward": 12043.418,
     "total": 12043.418,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203531,
@@ -5937,7 +6476,8 @@
     "commission": 37209.0,
     "reward": 13809.156,
     "total": 51018.156,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203299,
@@ -5948,7 +6488,8 @@
     "commission": 12638.0,
     "reward": 49774.673,
     "total": 62412.673,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203421,
@@ -5959,7 +6500,8 @@
     "commission": 503.0,
     "reward": 18037.568,
     "total": 18540.568,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203174,
@@ -5970,7 +6512,8 @@
     "commission": 0.0,
     "reward": 27323.375,
     "total": 27323.375,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203100,
@@ -5981,7 +6524,8 @@
     "commission": 1.0,
     "reward": 25845.05,
     "total": 25846.05,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203157,
@@ -5992,7 +6536,8 @@
     "commission": 3035.0,
     "reward": 25944.402,
     "total": 28979.402,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203341,
@@ -6003,7 +6548,8 @@
     "commission": 5094.0,
     "reward": 17927.713,
     "total": 23021.713,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203279,
@@ -6014,7 +6560,8 @@
     "commission": 2276.0,
     "reward": 22691.628,
     "total": 24967.628,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203332,
@@ -6025,7 +6572,8 @@
     "commission": 22602.0,
     "reward": 12679.388,
     "total": 35281.388,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203514,
@@ -6036,7 +6584,8 @@
     "commission": 266.0,
     "reward": 25057.392,
     "total": 25323.392,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203418,
@@ -6047,7 +6596,8 @@
     "commission": 11893.0,
     "reward": 14680.035,
     "total": 26573.035,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203395,
@@ -6058,7 +6608,8 @@
     "commission": 8944.0,
     "reward": 27499.696,
     "total": 36443.696,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203222,
@@ -6069,7 +6620,8 @@
     "commission": 6767.0,
     "reward": 25022.814,
     "total": 31789.814,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203286,
@@ -6080,7 +6632,8 @@
     "commission": 0.0,
     "reward": 18203.385,
     "total": 18203.385,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203528,
@@ -6091,7 +6644,8 @@
     "commission": 0.0,
     "reward": 12744.536,
     "total": 12744.536,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203415,
@@ -6102,7 +6656,8 @@
     "commission": 1116.0,
     "reward": 21141.858,
     "total": 22257.858,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203511,
@@ -6113,7 +6668,8 @@
     "commission": 3051.0,
     "reward": 10724.136,
     "total": 13775.136,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203144,
@@ -6124,7 +6680,8 @@
     "commission": 0.0,
     "reward": 40851.118,
     "total": 40851.118,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203298,
@@ -6135,7 +6692,8 @@
     "commission": 2519.0,
     "reward": 25085.168,
     "total": 27604.168,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203447,
@@ -6146,7 +6704,8 @@
     "commission": 5698.0,
     "reward": 10898.262,
     "total": 16596.262,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203397,
@@ -6157,7 +6716,8 @@
     "commission": 356.0,
     "reward": 11050.138,
     "total": 11406.138,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203203,
@@ -6168,7 +6728,8 @@
     "commission": 0.0,
     "reward": 21171.497,
     "total": 21171.497,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203226,
@@ -6179,7 +6740,8 @@
     "commission": 9077.0,
     "reward": 25105.671,
     "total": 34182.671,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203180,
@@ -6190,7 +6752,8 @@
     "commission": 0.0,
     "reward": 24197.569,
     "total": 24197.569,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203292,
@@ -6201,7 +6764,8 @@
     "commission": 3240.0,
     "reward": 22435.194,
     "total": 25675.194,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203537,
@@ -6212,7 +6776,8 @@
     "commission": 18843.0,
     "reward": 10551.125,
     "total": 29394.125,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203240,
@@ -6223,7 +6788,8 @@
     "commission": 0.0,
     "reward": 23909.231,
     "total": 23909.231,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203269,
@@ -6234,7 +6800,8 @@
     "commission": 1.0,
     "reward": 14211.877,
     "total": 14212.877,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203241,
@@ -6245,7 +6812,8 @@
     "commission": 0.0,
     "reward": 6971.263,
     "total": 6971.263,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203526,
@@ -6256,7 +6824,8 @@
     "commission": 8784.0,
     "reward": 24102.309,
     "total": 32886.309,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203558,
@@ -6267,7 +6836,8 @@
     "commission": 0.0,
     "reward": 4576.398,
     "total": 4576.398,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203379,
@@ -6278,7 +6848,8 @@
     "commission": 33426.0,
     "reward": 11789.691,
     "total": 45215.691,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203353,
@@ -6289,7 +6860,8 @@
     "commission": 2446.0,
     "reward": 17657.967,
     "total": 20103.967,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203151,
@@ -6300,7 +6872,8 @@
     "commission": 0.0,
     "reward": 7877.6,
     "total": 7877.6,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203131,
@@ -6311,7 +6884,8 @@
     "commission": 3431.0,
     "reward": 17438.121,
     "total": 20869.121,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203478,
@@ -6322,7 +6896,8 @@
     "commission": 3014.0,
     "reward": 18054.671,
     "total": 21068.671,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203376,
@@ -6333,7 +6908,8 @@
     "commission": 0.0,
     "reward": 8961.463,
     "total": 8961.463,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203512,
@@ -6344,7 +6920,8 @@
     "commission": 0.0,
     "reward": 13844.763,
     "total": 13844.763,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203500,
@@ -6355,7 +6932,8 @@
     "commission": 283.0,
     "reward": 23466.937,
     "total": 23749.937,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203171,
@@ -6366,7 +6944,8 @@
     "commission": 0.0,
     "reward": 7297.781,
     "total": 7297.781,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203363,
@@ -6377,7 +6956,8 @@
     "commission": 0.0,
     "reward": 13195.41,
     "total": 13195.41,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203432,
@@ -6388,7 +6968,8 @@
     "commission": 0.0,
     "reward": 6760.888,
     "total": 6760.888,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203435,
@@ -6399,7 +6980,8 @@
     "commission": 4028.0,
     "reward": 18147.599,
     "total": 22175.599,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203199,
@@ -6410,7 +6992,8 @@
     "commission": 691.0,
     "reward": 3000.956,
     "total": 3691.956,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203452,
@@ -6421,7 +7004,8 @@
     "commission": 0.0,
     "reward": 27040.894,
     "total": 27040.894,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203329,
@@ -6432,7 +7016,8 @@
     "commission": 0.0,
     "reward": 10529.356,
     "total": 10529.356,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203335,
@@ -6443,7 +7028,8 @@
     "commission": 0.0,
     "reward": 14456.274,
     "total": 14456.274,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203297,
@@ -6454,7 +7040,8 @@
     "commission": 0.0,
     "reward": 18264.743,
     "total": 18264.743,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203559,
@@ -6465,7 +7052,8 @@
     "commission": 0.0,
     "reward": 15438.984,
     "total": 15438.984,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203121,
@@ -6476,7 +7064,8 @@
     "commission": 0.0,
     "reward": 12366.344,
     "total": 12366.344,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203522,
@@ -6487,7 +7076,8 @@
     "commission": 0.0,
     "reward": 9115.8,
     "total": 9115.8,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203315,
@@ -6498,7 +7088,8 @@
     "commission": 0.0,
     "reward": 37408.103,
     "total": 37408.103,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203282,
@@ -6509,7 +7100,8 @@
     "commission": 0.0,
     "reward": 6860.254,
     "total": 6860.254,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203187,
@@ -6520,7 +7112,8 @@
     "commission": 10586.0,
     "reward": 22317.627,
     "total": 32903.627,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203306,
@@ -6531,7 +7124,8 @@
     "commission": 2003.0,
     "reward": 5302.7,
     "total": 7305.7,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203305,
@@ -6542,7 +7136,8 @@
     "commission": 0.0,
     "reward": 7750.302,
     "total": 7750.302,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203479,
@@ -6553,7 +7148,8 @@
     "commission": 0.0,
     "reward": 8744.245,
     "total": 8744.245,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203463,
@@ -6564,7 +7160,8 @@
     "commission": 0.0,
     "reward": 11669.451,
     "total": 11669.451,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203535,
@@ -6575,7 +7172,8 @@
     "commission": 1085.0,
     "reward": 9635.746,
     "total": 10720.746,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203225,
@@ -6586,7 +7184,8 @@
     "commission": 4209.0,
     "reward": 10772.263,
     "total": 14981.263,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203146,
@@ -6597,7 +7196,8 @@
     "commission": 0.0,
     "reward": 15617.808,
     "total": 15617.808,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203523,
@@ -6608,7 +7208,8 @@
     "commission": 18.0,
     "reward": 16100.361,
     "total": 16118.361,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203192,
@@ -6619,7 +7220,8 @@
     "commission": 0.0,
     "reward": 4868.306,
     "total": 4868.306,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203181,
@@ -6630,7 +7232,8 @@
     "commission": 5643.0,
     "reward": 8668.992,
     "total": 14311.992,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203170,
@@ -6641,7 +7244,8 @@
     "commission": 0.0,
     "reward": 15367.903,
     "total": 15367.903,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203426,
@@ -6652,7 +7256,8 @@
     "commission": 8748.0,
     "reward": 17156.362,
     "total": 25904.362,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203266,
@@ -6663,7 +7268,8 @@
     "commission": 0.0,
     "reward": 5595.844,
     "total": 5595.844,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203195,
@@ -6674,7 +7280,8 @@
     "commission": 0.0,
     "reward": 8486.447,
     "total": 8486.447,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203456,
@@ -6685,7 +7292,8 @@
     "commission": 0.0,
     "reward": 4623.886,
     "total": 4623.886,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203166,
@@ -6696,7 +7304,8 @@
     "commission": 1557.0,
     "reward": 9189.406,
     "total": 10746.406,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203234,
@@ -6707,7 +7316,8 @@
     "commission": 686.0,
     "reward": 14275.673,
     "total": 14961.673,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203455,
@@ -6718,7 +7328,8 @@
     "commission": 0.0,
     "reward": 16144.314,
     "total": 16144.314,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203374,
@@ -6729,7 +7340,8 @@
     "commission": 0.0,
     "reward": 7326.209,
     "total": 7326.209,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203178,
@@ -6740,7 +7352,8 @@
     "commission": 0.0,
     "reward": 7472.734,
     "total": 7472.734,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203458,
@@ -6751,7 +7364,8 @@
     "commission": 4540.0,
     "reward": 7643.692,
     "total": 12183.692,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203440,
@@ -6762,7 +7376,8 @@
     "commission": 0.0,
     "reward": 4163.701,
     "total": 4163.701,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203183,
@@ -6773,7 +7388,8 @@
     "commission": 2435.0,
     "reward": 12236.569,
     "total": 14671.569,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203309,
@@ -6784,7 +7400,8 @@
     "commission": 0.0,
     "reward": 6694.375,
     "total": 6694.375,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203468,
@@ -6795,7 +7412,8 @@
     "commission": 0.0,
     "reward": 5605.032,
     "total": 5605.032,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203201,
@@ -6806,7 +7424,8 @@
     "commission": 0.0,
     "reward": 6054.53,
     "total": 6054.53,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203495,
@@ -6817,7 +7436,8 @@
     "commission": 0.0,
     "reward": 2450.223,
     "total": 2450.223,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203410,
@@ -6828,7 +7448,8 @@
     "commission": 0.0,
     "reward": 5550.753,
     "total": 5550.753,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203285,
@@ -6839,7 +7460,8 @@
     "commission": 0.0,
     "reward": 7469.377,
     "total": 7469.377,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203173,
@@ -6850,7 +7472,8 @@
     "commission": 296.0,
     "reward": 13004.159,
     "total": 13300.159,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203544,
@@ -6861,7 +7484,8 @@
     "commission": 747.0,
     "reward": 4398.946,
     "total": 5145.946,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203185,
@@ -6872,7 +7496,8 @@
     "commission": 0.0,
     "reward": 3306.422,
     "total": 3306.422,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203396,
@@ -6883,7 +7508,8 @@
     "commission": 0.0,
     "reward": 2331.2,
     "total": 2331.2,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203373,
@@ -6894,7 +7520,8 @@
     "commission": 0.0,
     "reward": 9711.098,
     "total": 9711.098,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203148,
@@ -6905,7 +7532,8 @@
     "commission": 1617.0,
     "reward": 18891.834,
     "total": 20508.834,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203136,
@@ -6916,7 +7544,8 @@
     "commission": 0.0,
     "reward": 6354.99,
     "total": 6354.99,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203113,
@@ -6927,7 +7556,8 @@
     "commission": 0.0,
     "reward": 4566.98,
     "total": 4566.98,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203308,
@@ -6938,7 +7568,8 @@
     "commission": 0.0,
     "reward": 7727.891,
     "total": 7727.891,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203524,
@@ -6949,7 +7580,8 @@
     "commission": 1336.0,
     "reward": 8143.811,
     "total": 9479.811,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203451,
@@ -6960,7 +7592,8 @@
     "commission": 0.0,
     "reward": 10710.859,
     "total": 10710.859,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203356,
@@ -6971,7 +7604,8 @@
     "commission": 2084.0,
     "reward": 6572.011,
     "total": 8656.011,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203119,
@@ -6982,7 +7616,8 @@
     "commission": 0.0,
     "reward": 4572.98,
     "total": 4572.98,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   },
   {
     "number": 7203546,
@@ -6993,7 +7628,8 @@
     "commission": 2691.0,
     "reward": 24199.149,
     "total": 26890.149,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203161,
@@ -7004,7 +7640,8 @@
     "commission": 983.0,
     "reward": 9277.119,
     "total": 10260.119,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203482,
@@ -7015,7 +7652,8 @@
     "commission": 0.0,
     "reward": 1542.632,
     "total": 1542.632,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203318,
@@ -7026,7 +7664,8 @@
     "commission": 487.0,
     "reward": 2074.07,
     "total": 2561.07,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203331,
@@ -7037,7 +7676,8 @@
     "commission": 0.0,
     "reward": 3436.037,
     "total": 3436.037,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 300000.0
   },
   {
     "number": 7203231,
@@ -7048,7 +7688,8 @@
     "commission": 378.0,
     "reward": 1433.439,
     "total": 1811.439,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203405,
@@ -7059,7 +7700,8 @@
     "commission": 0.0,
     "reward": 1216.1,
     "total": 1216.1,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 200000.0
   },
   {
     "number": 7203108,
@@ -7070,7 +7712,8 @@
     "commission": 0.0,
     "reward": 226.098,
     "total": 226.098,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 500000.0
   },
   {
     "number": 7203193,
@@ -7081,7 +7724,8 @@
     "commission": 0.0,
     "reward": 15.861,
     "total": 15.861,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 400000.0
   },
   {
     "number": 7203210,
@@ -7092,6 +7736,7 @@
     "commission": 0.0,
     "reward": 17.066,
     "total": 17.066,
-    "region": "Андижан"
+    "region": "Андижан",
+    "base_rent": 600000.0
   }
 ]

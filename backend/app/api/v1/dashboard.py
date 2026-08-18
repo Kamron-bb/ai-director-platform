@@ -21,6 +21,7 @@ from app.schemas.dashboard import (
     EfficiencyItemOut,
     EfficiencyOut,
     RegionSummaryOut,
+    RentOut,
     SegmentOut,
     SummaryOut,
     TerminalOut,
@@ -130,6 +131,23 @@ def efficiency(region: str | None = Query(default=None)) -> EfficiencyOut:
         best=convert(best),
         worst=convert(worst),
     )
+
+
+@router.get("/rent", response_model=list[RentOut])
+def rent(region: str | None = Query(default=None)) -> list[RentOut]:
+    return [
+        RentOut(
+            number=t.number,
+            name=t.name,
+            region=t.region,
+            turnover=t.from_client,
+            base_rent=t.base_rent,
+            rent_due=t.rent_due,
+        )
+        for t in sorted(
+            _filtered_terminals(region), key=lambda t: t.rent_due, reverse=True
+        )
+    ]
 
 
 @router.get("/regions", response_model=list[RegionSummaryOut])

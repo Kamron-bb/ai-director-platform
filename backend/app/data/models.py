@@ -18,6 +18,7 @@ class Terminal:
     reward: float
     total: float
     region: str = "Ташкент"
+    base_rent: float = 0.0
 
     @property
     def avg_check(self) -> float:
@@ -27,3 +28,8 @@ class Terminal:
     @property
     def has_commission(self) -> bool:
         return self.commission > 0
+
+    @property
+    def rent_due(self) -> float:
+        """1.2% от оборота минус базовая аренда терминала минус 6000 сум."""
+        return self.from_client * 0.012 - self.base_rent - 6000

@@ -2,12 +2,13 @@
 
 import { useI18n, type DictKey } from "@/lib/i18n";
 
-export type View = "overview" | "terminals" | "segments";
+export type View = "overview" | "terminals" | "segments" | "rent";
 
 const ITEMS: { id: View; label: DictKey; icon: string }[] = [
   { id: "overview", label: "overview", icon: "M3 12h4l3-8 4 16 3-8h4" },
   { id: "terminals", label: "terminals", icon: "M4 4h16v6H4zM4 14h16v6H4z" },
   { id: "segments", label: "segments", icon: "M4 18h4V8H4zM10 18h4V4h-4zM16 18h4v-7h-4z" },
+  { id: "rent", label: "rent", icon: "M3 21h18M6 21V9l6-5 6 5v12M10 21v-6h4v6" },
 ];
 
 export function Sidebar({

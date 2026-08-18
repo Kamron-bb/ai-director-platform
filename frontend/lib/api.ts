@@ -60,6 +60,15 @@ export interface Efficiency {
   worst: EfficiencyItem[];
 }
 
+export interface Rent {
+  number: number;
+  name: string;
+  region: string;
+  turnover: number;
+  base_rent: number;
+  rent_due: number;
+}
+
 async function get<T>(path: string): Promise<T> {
   const response = await fetch(`${BASE}/api/v1${path}`, {
     cache: "no-store",
@@ -108,3 +117,5 @@ export const fetchTerminals = (
 ) => get<Terminal[]>(`/dashboard/terminals?${withRegion({ limit, order }, region)}`);
 export const fetchEfficiency = (region: Region = null) =>
   get<Efficiency>(`/dashboard/efficiency?${withRegion({}, region)}`);
+export const fetchRent = (region: Region = null) =>
+  get<Rent[]>(`/dashboard/rent?${withRegion({}, region)}`);
