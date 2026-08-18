@@ -79,6 +79,12 @@ export function RentTable({ data }: { data: Rent[] }) {
   const sumColor = (value: number) =>
     value < 0 ? "var(--negative)" : "var(--positive)";
 
+  const accentCell = (key: SortKey) => ({
+    ...cell,
+    textAlign: "right" as const,
+    color: sortKey === key ? "var(--accent)" : "var(--text-dim)",
+  });
+
   const valueCell = (value: number) => ({
     ...cell,
     textAlign: "right" as const,
@@ -181,10 +187,10 @@ export function RentTable({ data }: { data: Rent[] }) {
                   </span>
                   {item.name}
                 </td>
-                <td className="tnum" style={valueCell(item.turnover)}>
+                <td className="tnum" style={accentCell("turnover")}>
                   {formatMoney(item.turnover)}
                 </td>
-                <td className="tnum" style={valueCell(item.base_rent)}>
+                <td className="tnum" style={accentCell("base_rent")}>
                   {formatNumber(item.base_rent)}
                 </td>
                 <td className="tnum" style={valueCell(item.rent_due)}>
