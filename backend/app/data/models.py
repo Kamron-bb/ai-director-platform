@@ -17,6 +17,7 @@ class Terminal:
     commission: float
     reward: float
     total: float
+    region: str = "Ташкент"
 
     @property
     def avg_check(self) -> float:

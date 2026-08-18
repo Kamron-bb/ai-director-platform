@@ -25,7 +25,7 @@ COL_REWARD = 6
 COL_TOTAL = 7
 
 
-def load_terminals(path: Path) -> list[Terminal]:
+def load_terminals(path: Path, region: str = "Ташкент") -> list[Terminal]:
     """
     Читает лист с оборотом и возвращает список терминалов.
 
@@ -54,6 +54,7 @@ def load_terminals(path: Path) -> list[Terminal]:
                 commission=float(sheet.cell_value(row, COL_COMMISSION) or 0),
                 reward=float(sheet.cell_value(row, COL_REWARD) or 0),
                 total=float(sheet.cell_value(row, COL_TOTAL) or 0),
+                region=region,
             )
         )
 
