@@ -1,15 +1,25 @@
 "use client";
 
 import type { Terminal } from "@/lib/api";
+import { useI18n, type DictKey } from "@/lib/i18n";
 import { formatMoney, formatNumber } from "@/lib/format";
+
+const REGION_LABELS: Record<string, DictKey> = {
+  Ташкент: "regionTashkent",
+  Кашкадарья: "regionQashqadaryo",
+  Андижан: "regionAndijon",
+};
 
 export function TerminalsMiniList({
   data,
   color = "var(--accent)",
+  showRegion = false,
 }: {
   data: Terminal[];
   color?: string;
+  showRegion?: boolean;
 }) {
+  const { t } = useI18n();
   if (!data.length) return null;
 
   return (
@@ -39,6 +49,20 @@ export function TerminalsMiniList({
               {i + 1}
             </span>
             {item.name}
+            {showRegion && REGION_LABELS[item.region] && (
+              <span
+                style={{
+                  flexShrink: 0,
+                  fontSize: 10,
+                  padding: "1px 6px",
+                  borderRadius: 4,
+                  background: "var(--surface-2)",
+                  color: "var(--text-faint)",
+                }}
+              >
+                {t(REGION_LABELS[item.region])}
+              </span>
+            )}
           </span>
           <span
             className="tnum"
@@ -56,7 +80,7 @@ export function TerminalsMiniList({
             <span
               style={{ fontSize: 10.5, fontWeight: 400, color: "var(--text-faint)" }}
             >
-              {formatNumber(item.payments)}×
+              {formatNumber(item.payments)} {t("paymentsAbbr")}
             </span>
           </span>
         </div>

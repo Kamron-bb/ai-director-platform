@@ -57,6 +57,9 @@ const DICT = {
     commissionAll: "Комиссия: все",
     commissionWith: "С комиссией",
     commissionWithout: "Без комиссии",
+    regionsPanelTitle: "Сравнение регионов",
+    yieldPerMillion: "Доходность/млн",
+    paymentsAbbr: "плат.",
   },
   uz: {
     appName: "El-Pay Dashboard",
@@ -110,6 +113,9 @@ const DICT = {
     commissionAll: "Komissiya: barchasi",
     commissionWith: "Komissiyali",
     commissionWithout: "Komissiyasiz",
+    regionsPanelTitle: "Hududlar taqqoslash",
+    yieldPerMillion: "Daromadlilik/mln",
+    paymentsAbbr: "to'l.",
   },
 } as const;
 

@@ -8,6 +8,7 @@ import { Histogram } from "@/components/Histogram";
 import { SegmentBars } from "@/components/SegmentBars";
 import { TerminalsTable } from "@/components/TerminalsTable";
 import { RentTable } from "@/components/RentTable";
+import { RegionsPanel } from "@/components/RegionsPanel";
 import { Sidebar, type View } from "@/components/Sidebar";
 import { LoginScreen } from "@/components/LoginScreen";
 import { EfficiencyPanel } from "@/components/EfficiencyPanel";
@@ -20,12 +21,14 @@ import {
   fetchTerminals,
   fetchEfficiency,
   fetchRent,
+  fetchRegions,
   type Summary,
   type Bucket,
   type Segment,
   type Terminal,
   type Efficiency,
   type Rent,
+  type RegionSummary,
   type Region,
 } from "@/lib/api";
 import { formatMoney, formatNumber } from "@/lib/format";
@@ -42,7 +45,17 @@ export default function Page() {
   const [outsiders, setOutsiders] = useState<Terminal[]>([]);
   const [efficiency, setEfficiency] = useState<Efficiency | null>(null);
   const [rent, setRent] = useState<Rent[]>([]);
+  const [regions, setRegions] = useState<RegionSummary[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!authorized) return;
+    // /regions не принимает фильтр — это всегда разбивка по всей сети,
+    // поэтому грузится один раз, отдельно от переключателя региона.
+    fetchRegions()
+      .then(setRegions)
+      .catch((e: Error) => setError(e.message));
+  }, [authorized]);
 
   useEffect(() => {
     if (!authorized) return;
@@ -152,9 +165,20 @@ export default function Page() {
                 <Histogram data={buckets} />
               </Panel>
               <Panel title={t("top5Terminals")}>
-                <TerminalsMiniList data={terminals.slice(0, 5)} />
+                <TerminalsMiniList
+                  data={terminals.slice(0, 5)}
+                  showRegion={region === null}
+                />
               </Panel>
             </div>
+
+            {regions.length > 0 && (
+              <div style={{ marginTop: 14 }}>
+                <Panel title={t("regionsPanelTitle")}>
+                  <RegionsPanel data={regions} />
+                </Panel>
+              </div>
+            )}
 
             {efficiency && (
               <div style={{ marginTop: 14 }}>
@@ -197,7 +221,11 @@ export default function Page() {
               >
                 {t("outsidersHint")}
               </p>
-              <TerminalsMiniList data={outsiders} color="var(--negative)" />
+              <TerminalsMiniList
+                data={outsiders}
+                color="var(--negative)"
+                showRegion={region === null}
+              />
             </Panel>
           </div>
         )}

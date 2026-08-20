@@ -69,6 +69,18 @@ export interface Rent {
   rent_due: number;
 }
 
+export interface RegionSummary {
+  region: string;
+  terminals: number;
+  payments: number;
+  turnover: number;
+  share: number;
+  avg_check: number;
+  reward: number;
+  yield_per_million: number;
+  zero_commission_count: number;
+}
+
 async function get<T>(path: string): Promise<T> {
   const response = await fetch(`${BASE}/api/v1${path}`, {
     cache: "no-store",
@@ -119,3 +131,4 @@ export const fetchEfficiency = (region: Region = null) =>
   get<Efficiency>(`/dashboard/efficiency?${withRegion({}, region)}`);
 export const fetchRent = (region: Region = null) =>
   get<Rent[]>(`/dashboard/rent?${withRegion({}, region)}`);
+export const fetchRegions = () => get<RegionSummary[]>("/dashboard/regions");
